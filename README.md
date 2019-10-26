@@ -1,4 +1,4 @@
-<img src="img/imagemGit.jpg" width="100%" height = "300"/>
+<img style="object-fit: cover;" src="img/imagemGit.jpg" width="100%" height = "300"/>
 
 <h1>
     Veganices
@@ -21,12 +21,12 @@ Veganices é um site ideal para os veganos , e também para os que pretende se t
 # Criadores
 
 <ul>
-        <a style="padding-top: 5px;" href="https://github.com/Alaercio2000"><img width="75" src="https://avatars3.githubusercontent.com/u/49242568?s=460&v=4" alt="Imagem Perfil"></a>
-        <a style="padding-top: 5px;" href="https://github.com/anacarolsfcabral"><img width="75" src="https://avatars2.githubusercontent.com/u/11450997?s=400&v=4" alt="Imagem Perfil"></a>
-        <a style="padding-top: 5px;" href="https://github.com/Marcelomata2"><img width="75" src="https://avatars0.githubusercontent.com/u/56271262?s=400&v=4" alt="Imagem Perfil"></a>
-        <a style="padding-top: 5px;" href="https://github.com/AustinEdmar"><img width="75" src="https://avatars0.githubusercontent.com/u/53894735?s=400&v=4" alt="Imagem Perfil"></a>
-        <a style="padding-top: 5px;" href="https://github.com/mari0611"><img width="75" src="https://avatars3.githubusercontent.com/u/55931941?s=400&v=4" alt="Imagem Perfil"></a>
-        <a style="padding-top: 5px;" href="https://github.com/megmiyata"><img width="75" src="https://avatars3.githubusercontent.com/u/55217950?s=460&v=4" alt="Imagem Perfil"></a>
+     <a style="padding-left: 6px;" href="https://github.com/Alaercio2000"><img width="75" src="https://avatars3.githubusercontent.com/u/49242568?s=460&v=4" alt="Imagem Perfil"></a>
+        <a style="padding-left: 6px;" href="https://github.com/anacarolsfcabral"><img width="75" src="https://avatars2.githubusercontent.com/u/11450997?s=400&v=4" alt="Imagem Perfil"></a>
+        <a style="padding-left: 6px;" href="https://github.com/Marcelomata2"><img width="75" src="https://avatars0.githubusercontent.com/u/56271262?s=400&v=4" alt="Imagem Perfil"></a>
+        <a style="padding-left: 6px;" href="https://github.com/AustinEdmar"><img width="75" src="https://avatars0.githubusercontent.com/u/53894735?s=400&v=4" alt="Imagem Perfil"></a>
+        <a style="padding-left: 6px;" href="https://github.com/mari0611"><img width="75" src="https://avatars3.githubusercontent.com/u/55931941?s=400&v=4" alt="Imagem Perfil"></a>
+        <a href="https://github.com/megmiyata"><img width="75" src="https://avatars3.githubusercontent.com/u/55217950?s=460&v=4" alt="Imagem Perfil"></a>
     </ul>
 
 
