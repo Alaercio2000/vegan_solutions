@@ -14,11 +14,24 @@
     Índices
 </h2>
 
-[TOC]
+<ul>
+    <li><a href="#criadores">Criadores</a></li>
+        <li><a href="#comunidade">Comunidade</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#profissionais">Profissionais</a></li>
+        <li><a href="#restaurantes">Restaurantes</a></li>
+</ul>
 
 
 
-# Criadores
+
+
+<h2 id="criadores">
+    Criadores
+</h2>
+
+
 
 <ul>
      <a style="padding-left: 6px;" href="https://github.com/Alaercio2000"><img width="75" src="https://avatars3.githubusercontent.com/u/49242568?s=460&v=4" alt="Imagem Perfil"></a>
@@ -31,31 +44,51 @@
 
 
 
-# Comunidades
+<h2 id="comunidade">
+    Comunidade
+</h2>
+
+
 
 Ambiente de interação entre os usuários. A página será apresentada com diversos tópicos de conversas, e se acessadas, permitirá ver o histórico de todos os comentários e campo para incluí-lo.O usuário também poderá iniciar um novo tópico que será apresentado na página inicial (Comunidade) e ficará disponível para comentários.
 
 
 
-# Blog
+<h2 id="blog">
+    Blog
+</h2>
+
+
 
  Será destinado à apresentação de notícias diversas sobre o veganismo. Terá informações sobre o que acontece no cenário atual, vídeos e outros tópicos relevantes sobre o assunto.
 
 
 
-# Produtos
+<h2 id="produtos">
+    Produtos
+</h2>
+
+
 
  Terá lista com opções de vestuário/ calçados, produtos de beleza e alimentação. O usuário será direcionado à página de busca podendo verificar localização, serviços oferecidos e preço. Clicando em alguma das opções, será exibida informação completa e campo para contato direto com o local 
 
 
 
-# Profissionais
+<h2 id="profissionais">
+    Profissionais
+</h2>
+
+
 
  Onde o usuário poderá buscar profissionais específicos na área (nutrólogos, pediatras e nutricionistas). Estes profissionais também poderão se cadastrar (tela de cadastro), sendo identificado de forma diferenciada nessa busca. 
 
 
 
-# Restaurantes
+<h2 id="restaurantes">
+    Restaurantes
+</h2>
+
+
 
   Será apresentada ao usuário uma lista de diversos restaurantes, à princípio por ordem de classificação. Será possível filtrar por localidade, preço e tipo de restaurante (100%vegano, crudívoro, ovolacto, etc..). Clicando em alguma das opções, será exibida informação completa e campo para contato direto com o local. 
 
