@@ -16,18 +16,18 @@
 
 <ul>
     <li><a href="#criadores">Criadores</a></li>
-        <li><a href="#comunidade">Comunidade</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#produtos">Produtos</a></li>
-        <li><a href="#profissionais">Profissionais</a></li>
-        <li><a href="#restaurantes">Restaurantes</a></li>
+        <li><a style="transition: 1s;" href="#comunidade">Comunidade</a></li>
+        <li><a style="transition: 1s;" href="#blog">Blog</a></li>
+        <li><a style="transition: 1s;" href="#produtos">Produtos</a></li>
+        <li><a style="transition: 1s;" href="#profissionais">Profissionais</a></li>
+        <li><a style="transition: 1s;" href="#restaurantes">Restaurantes</a></li>
 </ul>
 
 
 
 
 
-<h2 id="criadores">
+<h2 style="transition: 1s;" id="criadores">
     Criadores
 </h2>
 
@@ -44,55 +44,53 @@
 
 
 
-<h2 id="comunidade">
+<h2 style="transition: 1s;" id="comunidade">
     Comunidade
 </h2>
 
+<p>
+    Ambiente de interação entre os usuários. A página será apresentada com diversos tópicos de conversas, e se acessadas, permitirá ver o histórico de todos os comentários e campo para incluí-lo.O usuário também poderá iniciar um novo tópico que será apresentado na página inicial (Comunidade) e ficará disponível para comentários.
+</p>
 
 
-Ambiente de interação entre os usuários. A página será apresentada com diversos tópicos de conversas, e se acessadas, permitirá ver o histórico de todos os comentários e campo para incluí-lo.O usuário também poderá iniciar um novo tópico que será apresentado na página inicial (Comunidade) e ficará disponível para comentários.
 
-
-
-<h2 id="blog">
+<h2 style="transition: 1s;" id="blog">
     Blog
 </h2>
 
+ <p>
+     Será destinado à apresentação de notícias diversas sobre o veganismo. Terá informações sobre o que acontece no cenário atual, vídeos e outros tópicos relevantes sobre o assunto.
+ </p>
 
 
- Será destinado à apresentação de notícias diversas sobre o veganismo. Terá informações sobre o que acontece no cenário atual, vídeos e outros tópicos relevantes sobre o assunto.
 
-
-
-<h2 id="produtos">
+<h2 style="transition: 1s;" id="produtos">
     Produtos
 </h2>
 
+<p>
+     Terá lista com opções de vestuário/ calçados, produtos de beleza e alimentação. O usuário será direcionado à página de busca podendo verificar localização, serviços oferecidos e preço. Clicando em alguma das opções, será exibida informação completa e campo para contato direto com o local 
+</p>
 
 
- Terá lista com opções de vestuário/ calçados, produtos de beleza e alimentação. O usuário será direcionado à página de busca podendo verificar localização, serviços oferecidos e preço. Clicando em alguma das opções, será exibida informação completa e campo para contato direto com o local 
 
-
-
-<h2 id="profissionais">
+<h2 style="transition: 1s;" id="profissionais">
     Profissionais
 </h2>
 
+  <p>
+      Onde o usuário poderá buscar profissionais específicos na área (nutrólogos, pediatras e nutricionistas). Estes profissionais também poderão se cadastrar (tela de cadastro), sendo identificado de forma diferenciada nessa busca. 
+  </p>
 
 
- Onde o usuário poderá buscar profissionais específicos na área (nutrólogos, pediatras e nutricionistas). Estes profissionais também poderão se cadastrar (tela de cadastro), sendo identificado de forma diferenciada nessa busca. 
 
-
-
-<h2 id="restaurantes">
+<h2 sstyle="transition: 1s;" id="restaurantes">
     Restaurantes
 </h2>
 
-
-
-  Será apresentada ao usuário uma lista de diversos restaurantes, à princípio por ordem de classificação. Será possível filtrar por localidade, preço e tipo de restaurante (100%vegano, crudívoro, ovolacto, etc..). Clicando em alguma das opções, será exibida informação completa e campo para contato direto com o local. 
-
-
+  <p>
+      Será apresentada ao usuário uma lista de diversos restaurantes, à princípio por ordem de classificação. Será possível filtrar por localidade, preço e tipo de restaurante (100%vegano, crudívoro, ovolacto, etc..). Clicando em alguma das opções, será exibida informação completa e campo para contato direto com o local.
+  </p> 
 
 ```mermaid
 graph TD;
