@@ -6,7 +6,7 @@
 
 
 
-Veganices é um site ideal para os veganos , e também para os que pretende se tonar ou tem curiosidade , temos diversas dicas e opções como profissionais especializados , melhores restaurantes , depoimentos reais de veganos , blog com diversas pessoas interagindo para ajudar com dúvidas , produtos , etc.
+ Veganices é um site ideal para quem busca informações sobre o veganismo. Vamos apresentar diversas informações relevantes para quem é vegano, ou para quem tem curiosidade no assunto, facilitando também o processo de quem está em transição, já que mostraremos opções de restaurantes, produtos e profissionais da área, além de um blog e página de interação, onde todos poderão tirar dúvidas e compartilhar conhecimento sobre o assunto. 
 
 
 
