@@ -16,18 +16,18 @@
 
 <ul>
     <li><a href="#criadores">Criadores</a></li>
-        <li><a style="transition: 1s;" href="#comunidade">Comunidade</a></li>
-        <li><a style="transition: 1s;" href="#blog">Blog</a></li>
-        <li><a style="transition: 1s;" href="#produtos">Produtos</a></li>
-        <li><a style="transition: 1s;" href="#profissionais">Profissionais</a></li>
-        <li><a style="transition: 1s;" href="#restaurantes">Restaurantes</a></li>
+        <li><a href="#comunidade">Comunidade</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#profissionais">Profissionais</a></li>
+        <li><a href="#restaurantes">Restaurantes</a></li>
 </ul>
 
 
 
 
 
-<h2 style="transition: 1s;" id="criadores">
+<h2 id="criadores">
     Criadores
 </h2>
 
@@ -44,7 +44,7 @@
 
 
 
-<h2 style="transition: 1s;" id="comunidade">
+<h2 id="comunidade">
     Comunidade
 </h2>
 
@@ -54,7 +54,7 @@
 
 
 
-<h2 style="transition: 1s;" id="blog">
+<h2 id="blog">
     Blog
 </h2>
 
@@ -64,7 +64,7 @@
 
 
 
-<h2 style="transition: 1s;" id="produtos">
+<h2 id="produtos">
     Produtos
 </h2>
 
@@ -74,7 +74,7 @@
 
 
 
-<h2 style="transition: 1s;" id="profissionais">
+<h2 id="profissionais">
     Profissionais
 </h2>
 
@@ -84,7 +84,7 @@
 
 
 
-<h2 sstyle="transition: 1s;" id="restaurantes">
+<h2 id="restaurantes">
     Restaurantes
 </h2>
 
@@ -92,18 +92,10 @@
       Será apresentada ao usuário uma lista de diversos restaurantes, à princípio por ordem de classificação. Será possível filtrar por localidade, preço e tipo de restaurante (100%vegano, crudívoro, ovolacto, etc..). Clicando em alguma das opções, será exibida informação completa e campo para contato direto com o local.
   </p> 
 
-```mermaid
-graph TD;
-    Home-->Sobre;
-    Home-->Pesquisas;
-    Home-->Blog;
-    Home-->Comunidade;
-    Home-->Cadastro;
-    Pesquisas-->Ítem-específico;
-    Blog-->Postagem;
-    Comunidade-->Tópicos;
-    Cadastro-->Perfil;
-```
+<h2>
+    Estrutura Site Com Diagrama
+</h2>
+<img style="object-fit: cover;" src="img/diagrama.jpg" width="100%"/>
 
 
 
