@@ -1,4 +1,4 @@
-<img style="object-fit: cover;  object-position: 50 50;" src="img/imagemGit.jpg" width="100%" height="350px"/>
+<img style="object-fit: cover;  object-position: 50 50;" src="img/imagemGit.jpg" width="90%" height="400px"/>
 
 <h1>
     Veganices
