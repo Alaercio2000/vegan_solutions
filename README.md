@@ -96,7 +96,7 @@
 <h2 id="diagrama">
     Estrutura Site Com Diagrama
 </h2>
-<img style="object-fit: cover;" src="img/diagrama.PNG" width="100%"/>
+<img src="img/diagrama.PNG" width="100%"/>
 
 
 
