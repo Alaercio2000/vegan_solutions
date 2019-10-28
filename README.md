@@ -21,6 +21,7 @@
         <li><a href="#produtos">Produtos</a></li>
         <li><a href="#profissionais">Profissionais</a></li>
         <li><a href="#restaurantes">Restaurantes</a></li>
+        <li><a href="#diagrama">Estrutura Site Com Diagrama</a></li>
 </ul>
 
 
@@ -92,7 +93,7 @@
       Será apresentada ao usuário uma lista de diversos restaurantes, à princípio por ordem de classificação. Será possível filtrar por localidade, preço e tipo de restaurante (100%vegano, crudívoro, ovolacto, etc..). Clicando em alguma das opções, será exibida informação completa e campo para contato direto com o local.
   </p> 
 
-<h2>
+<h2 id="diagrama">
     Estrutura Site Com Diagrama
 </h2>
 <img style="object-fit: cover;" src="img/diagrama.PNG" width="100%"/>
