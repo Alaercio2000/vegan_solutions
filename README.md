@@ -94,10 +94,6 @@
 
 ```mermaid
 graph TD;
-	title[<h2>Diagrama com a estrutura do site]
-	title-->Home
-	style title fill:#FFF,stroke:#FFF
-	linkStyle 0 stroke:#FFF,stroke-width:0;
     Home-->Sobre;
     Home-->Pesquisas;
     Home-->Blog;
@@ -107,7 +103,6 @@ graph TD;
     Blog-->Postagem;
     Comunidade-->Tópicos;
     Cadastro-->Perfil;
-    
 ```
 
 
