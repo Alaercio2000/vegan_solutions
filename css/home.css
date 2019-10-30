@@ -1,3 +1,22 @@
 body *{
     box-sizing: border-box;
 }
+
+/* Menu Lateral */
+#menuLateral{
+    min-width: 250px;
+    max-width: 250px;
+    height: 100%vh;
+    background-color: rgb(80, 129, 96);
+}
+#menuLateral ul{
+    list-style: none;
+}
+#menuLateral ul li {
+    padding-bottom: 15px;
+}
+#imagemPerfil{
+    margin-left: 45px;
+    margin-bottom: 30px;
+}
+/* Fim Menu Lateral */
