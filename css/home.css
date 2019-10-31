@@ -25,15 +25,27 @@ body * {
 #recomendacoes {
     border-radius: 50%;
     object-fit: cover;
+    transition: 0.5s;
 }
 
-#recomendacoes:hover{
+#recomendacoes:hover {
     height: 200px;
     width: 200px;
     border-radius: 50%;
 }
 
+#dicasImagens {
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+#dicasImagens:hover {
+    width: 375px;
+    height: 250px;
+}
+
+
 /* Fim main */
 
-/* Rodapé */
 
+/* Rodapé */
