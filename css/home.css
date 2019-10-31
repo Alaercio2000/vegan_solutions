@@ -1,5 +1,7 @@
 body * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -25,5 +27,13 @@ body * {
     object-fit: cover;
 }
 
+#recomendacoes:hover{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
 
 /* Fim main */
+
+/* Rodapé */
+
