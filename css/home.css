@@ -1,22 +1,26 @@
-body *{
+body * {
     box-sizing: border-box;
 }
 
-/* Menu Lateral */
-#menuLateral{
-    min-width: 250px;
-    max-width: 250px;
-    height: 100%vh;
-    background-color: rgb(80, 129, 96);
+
+/* imagens Slide */
+
+#fundoBuscar div img {
+    object-fit: cover;
 }
-#menuLateral ul{
-    list-style: none;
+
+
+/* Buscar Slide */
+
+#buscarGeral {
+    margin: auto;
+    top: -250px;
 }
-#menuLateral ul li {
-    padding-bottom: 15px;
+
+
+/* Começo main */
+
+#recomendacoes {
+    border-radius: 50%;
+    object-fit: cover;
 }
-#imagemPerfil{
-    margin-left: 45px;
-    margin-bottom: 30px;
-}
-/* Fim Menu Lateral */
