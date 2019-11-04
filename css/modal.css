@@ -1,0 +1,31 @@
+.modals {
+    position: absolute;
+    width: 450px;
+    top: 0px;
+    right: 0px;
+}
+
+.modal-cadastro {
+    position: fixed;
+    width: 450px;
+    background-color: #FFFFFF;
+    color: #000000;
+    margin-top: 72px;
+    height: 100%;
+}
+
+.modal-login {
+    position: fixed;
+    width: 450px;
+    background-color: #FFFFFF;
+    color: #000000;
+    margin-top: 72px;
+    height: 100%;
+}
+
+.form-control {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #D6D2D2;
+    
+}
