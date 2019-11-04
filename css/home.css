@@ -4,13 +4,11 @@ body * {
     padding: 0;
 }
 
-
 /* imagens Slide */
 
 #fundoBuscar div img {
     object-fit: cover;
 }
-
 
 /* Buscar Slide */
 
@@ -18,7 +16,6 @@ body * {
     margin: auto;
     top: -250px;
 }
-
 
 /* Começo main */
 
@@ -34,18 +31,27 @@ body * {
     border-radius: 50%;
 }
 
-#dicasImagens {
+#legendaImagemDicas {
+    position: relative;
+    text-align: center;
+    color: white;
+    top: -85px;
+}
+
+#imagemDicas {
     object-fit: cover;
-    transition: 0.4s;
+    max-height: 150px;
+    -webkit-box-shadow: 8px -7px 15px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 8px -7px 15px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 8px -7px 15px -7px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+    
 }
 
-#dicasImagens:hover {
-    width: 375px;
-    height: 250px;
+#imagemDicas:hover {
+    -webkit-filter: grayscale(100%);filter: grayscale(100%);
 }
-
 
 /* Fim main */
-
 
 /* Rodapé */
