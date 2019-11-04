@@ -3,6 +3,13 @@ body * {
     margin: 0;
     padding: 0;
 }
+/* Menu */
+
+#menuHeader{
+    transition: 0.5s;
+}
+
+
 
 /* imagens Slide */
 
@@ -14,7 +21,7 @@ body * {
 
 #buscarGeral {
     margin: auto;
-    top: -250px;
+    top: -290px;
 }
 
 /* Começo main */
@@ -44,12 +51,13 @@ body * {
     -webkit-box-shadow: 8px -7px 15px -7px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 8px -7px 15px -7px rgba(0, 0, 0, 0.75);
     box-shadow: 8px -7px 15px -7px rgba(0, 0, 0, 0.75);
-    transition: 0.5s;
+    -webkit-filter: grayscale(100%);filter: grayscale(100%);
+    transition: 0.5s ease;
     
 }
 
 #imagemDicas:hover {
-    -webkit-filter: grayscale(100%);filter: grayscale(100%);
+    -webkit-filter: grayscale(0);filter: grayscale(0);
 }
 
 /* Fim main */
