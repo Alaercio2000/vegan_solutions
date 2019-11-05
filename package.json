@@ -4,8 +4,8 @@
   "description": "<img src=\"img/imagemGit.jpg\" width=\"100%\"/>",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass --watch css/coresBootstrap.scss css/coresBootstrap.css",
-    "sass.min": "node-sass --watch ./css/coresBootstrap.scss ./css/coresBootstrap.min.css --output-style compressed"
+    "sass": "node-sass --watch ./assets/css/coresBootstrap.scss assets/css/coresBootstrap.css",
+    "sass.min": "node-sass --watch ./assets/css/coresBootstrap.scss ./assets/css/coresBootstrap.min.css --output-style compressed"
   },
   "keywords": [],
   "author": "",

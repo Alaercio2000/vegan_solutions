@@ -1,4 +1,4 @@
-<img src="img/imagemGit.jpg" width="100%"/>
+<img src="assets/img/img-readme/imagemGit.jpg" width="100%"/>
 
 <h1>
     Veganices
@@ -96,7 +96,7 @@
 <h2 id="diagrama">
     Estrutura Site Com Diagrama
 </h2>
-<img src="img/diagrama.PNG" width="100%"/>
+<img src="assets/img/img-readme/diagrama.PNG" width="100%"/>
 
 
 
