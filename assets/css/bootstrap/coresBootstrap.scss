@@ -49,7 +49,8 @@ $grid-breakpoints: (
   sm: 576px,
   md: 926px,
   lg: 1081px,
-  xl: 1200px
+  xl: 1240px,
+  full: 1460px
 ) !default;
 
 // Grid containers
@@ -63,4 +64,4 @@ $container-max-widths: (
   xl: 1140px
 ) !default;
 
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
