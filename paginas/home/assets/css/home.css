@@ -8,11 +8,13 @@ body * {
 
 #menuHeader {
     transition: 0.6s;
+    background-color: rgb(100, 100, 100,.3);
 }
 
 #iconeMenu {
     font-size: 50px;
     line-height: 70px;
+    color: #ffffff;
 }
 
 /* Fim Menu */
@@ -23,6 +25,7 @@ body * {
     object-fit: cover;
 }
 
+
 #buscarGeral {
     margin: auto;
     top: -290px;
@@ -30,8 +33,6 @@ body * {
 /* Fim Slide */
 
 /*  Começo main  */
-/*      ||       */
-/*      \/       */
 
 /* Recomendações */
 
@@ -48,6 +49,20 @@ img.recomendacoesImagem:hover {
     height: 250px;
 }
 
+@media (max-width : 1080px){
+    img.recomendacoesImagem {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        transition: 0.5s;
+    }
+    
+    img.recomendacoesImagem:hover {
+        width: 200px;
+        height: 200px;
+    }
+}
 @media (max-width : 1080px){
     img.recomendacoesImagem {
         height: 150px;
