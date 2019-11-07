@@ -17,7 +17,7 @@ body * {
     line-height: 70px;
     color: #ffffff;
 }
-*:focus {
+#botaoMenu:focus {
     outline: thin dotted;
     outline: 0px auto -webkit-focus-ring-color;
     outline-offset: 0px;
