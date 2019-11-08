@@ -1,0 +1,32 @@
+#carousel img {
+    object-fit: cover;
+    height: 400px;
+  }
+  .card>h5,
+  p {
+    font-family: 'Staatliches', cursive;
+    color: rgb(40, 41, 38);
+    font-size: 18px;
+  }
+  
+  .carousel-caption>h5 {
+    font-family: 'Staatliches', cursive;
+    color: rgb(202, 204, 195);
+    font-size: 36px;
+  }
+  .carousel-caption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+    .card img {
+        object-fit: cover;
+        height: 180px;
+    }
+
+    .card {
+        height: 420px;
+
+    }
