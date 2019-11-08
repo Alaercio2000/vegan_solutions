@@ -17,52 +17,47 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <script defer src="https://kit.fontawesome.com/c9300953f9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../assets/css/loginProfissional.css">
+
 </head>
 <body>
     <header>
-        <div class="container border p-5 text-center">
+        <div class="container p-3 text-center">
 
-            <h4>Aqui vai a logo</h4>
+            <img src="../../assets/img/img-login/logoLogin.png" alt="logo" width="200px">
 
         </div>
     </header>
 
-    <main class="container border text-center">
+    <main class="container text-center">
 
-        <form action="" method="POST">
+        <form action="" method="POST" class="row">
 
-            <div class="row d-flex flex-column align-items-center my-3">
+            <div class="row px-5 mb-3 d-flex align-items-center col-lg-5 col-md-8 col-sm-10 inner-div-form">
 
-                <h5>Entre em sua conta</h5>
+                <div class="col-lg-12">
+                    <h3>Acesso Profissional</h3>
+                    <h6>Não possui uma conta? <a href="cadastro.php">Registre-se</a></h6>
+                </div>
 
-                <h6>Não possui uma conta? <a href="">Registre-se</a></h6>
-
-                <button type="submit" class="btn border my-2 mt-4 col-4">
-                    <i class="fab fa-facebook-square"></i>
-                    Entrar com Facebook
-                </button>
-
-                <button type="submit" class="btn border my-2 mb-4 col-4">
-                    <i class="fab fa-google"></i>
-                    Entrar com Google
-                </button>
-                
-                <h6>Ou acesse com seu e-mail</h6>
-
-                <div class="form-group col-6">
+                <div class="form-group col-lg-12">
                     <label for="email">E-mail</label>
                     <input type="email" class="form-control" name="email" id="email">
                 </div>
 
-                <div class="form-group col-6">
+                <div class="form-group col-lg-12">
                     <label for="senha">Senha</label>
                     <input type="password" class="form-control" name="senha" id="senha">
                 </div>
+
+                <div class="col-lg-12">
+                    <p><a href="">Esqueceu sua senha?</a></p> 
+        
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                </div>
+
             </div>
 
-            <p><a href="">Esqueceu sua senha?</a></p> 
-
-            <button type="submit" class="btn btn-primary">Entrar</button>
 
         </form>
 

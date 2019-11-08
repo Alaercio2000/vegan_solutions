@@ -1,0 +1,15 @@
+header>div>img {
+    background-color: #FFF;
+    border-radius: 100px;
+}
+
+body {
+    background-image: url('/projeto-integrador/img/imgLogin.jpg');
+}
+
+.inner-div-form {
+    padding: 40px 20px;
+    background-color: #FFF;
+    margin: 0 auto;
+    border-radius: 5px;
+}

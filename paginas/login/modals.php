@@ -1,17 +1,23 @@
+
+<link rel="stylesheet" href="../../assets/css/modal.css">
+<script defer src="../../assets/js/modal.js"></script>
+
+
 <div class="modals">
-    <div class="modal-cadastro container text-center align-items-center">
+    <div id="modal-cadastro" class="modal-cadastro container text-center align-items-center d-none">
         <form action="" method="POST">
     
             <div class="row d-flex flex-column my-3 align-items-center">
+                <div class="close-modal" onClick="hideModalCadastro()">X</div>
 
                 <h3>Cadastro</h3>
 
-                <button type="submit" class="btn border my-2 mt-4 col-6">
+                <button type="submit" class="btn btn-light border my-2 mt-4 col-6 btn-social">
                     <i class="fab fa-facebook-square"></i>
                     Entrar com Facebook
                 </button>
 
-                <button type="submit" class="btn border my-2 mb-4 col-6">
+                <button type="submit" class="btn btn-light border my-2 mb-4 col-6 btn-social">
                     <i class="fab fa-google"></i>
                     Entrar com Google
                 </button>
@@ -33,19 +39,21 @@
     
             <button type="submit" class="btn btn-primary">Criar conta</button>
 
-            <p>Já tem uma conta? <a href="">Entrar</a></p>
+            <p>Já tem uma conta? <a href="javascript:void()" onClick="showModalLogin()">Entrar</a></p>
 
         </form>
     </div>
 
-    <div class="modal-login container text-center align-items-center">
+    <div id="modal-login" class="modal-login container text-center align-items-center d-none">
             <form action="" method="POST">
         
                 <div class="row d-flex flex-column my-3 align-items-center">
+
+                    <div class="close-modal" onClick="hideModalLogin()">X</div>
     
                     <h3 class="mb-2">Entre em sua conta</h3>
 
-                    <h6>Não possui uma conta? <a href="">Registre-se</a></h6>
+                    <h6>Não possui uma conta? <a href="javascript:void()" onClick="showModalCadastro()">Registre-se</a></h6>
     
                     <button type="submit" class="btn border my-2 mt-4 col-6">
                         <i class="fab fa-facebook-square"></i>
