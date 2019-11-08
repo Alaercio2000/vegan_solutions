@@ -1,12 +1,26 @@
-header {
-  background-color: #FFDD8C;
+#menuHeader {
+  transition: 0.6s;
+  background-color: rgb(100, 100, 100,.2);
 }
 
+#iconeMenu {
+  font-size: 50px;
+  line-height: 70px;
+  color: #ffffff;
+}
+#botaoMenu:focus {
+  outline: thin dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}
+#navBar{
+  transition: 0.7s;
+}
+
+.nav-link {
+  transition: 0.5s;
+}
 .menu {
-  height: 90px;
-}
-
-.space {
   height: 90px;
 }
 
@@ -31,11 +45,4 @@ header {
 
 .card-body>img {
   width: 100%;
-}
-@media (max-width: 768px)
-{
-
-  
-}
-
 }
