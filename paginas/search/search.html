@@ -1,88 +1,254 @@
 <html>
-  <head>
-    <link href="css/style.css" rel="stylesheet">
-    <meta charset=”utf-8”>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-    <title>Pesquisa </title>
-  </head>
-  <body>
-    <header>
-      <div class="container menu">
-        <div class="row">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Veganices</title>
+  <script defer src="../home/assets/js/home.js"></script>
+  <script defer src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/bootstrap/coresBootstrap.min.css">
+  <link rel="stylesheet" href="..home/assets/css/home.css">
+  <link rel="stylesheet" href="assets/css/search.css">
+</head>
+
+<body>
+  <header class="fixed-top">
+    <div id="menuHeader" class="container-fluid">
+      <div class="row flex-row-reverse flex-md-row">
+        <div class="col-6 col-pq-5 col-sm-8 col-md-2 pr-1">
+          <a class="col" href="home.html">
+            <img class="p-2 p-pq-1" height="90" src="../home/assets/img/logo.png" alt="Logo">
+          </a>
         </div>
-        </div>
-        <div class="banner">
-          <div class="container">
-        <div class="row">
-        </div>
-        </div>
-        </div>
-      </div>
-    </header>
-    <main>
-      <div class="container">
-        <div class="row mt-5">
-          <div class="col-3  border-right px-4">
-            <form>
-              <div>
-              <label class="font-weight-bold">Setor</label>
-            <select class="custom-select" name ="setor" size="3">
-              <option value="0">Todos os setores </option>
-              <option value="1">Restaurantes</option>
-              <option value="2">Produtos</option>
-              <option value="3">Profissionais</option>
-            </select>
-          </div>
-          <div class="mt-5 border-top pt-4">
-            <label class="font-weight-bold">Região</label>
-            <select class="custom-select" name="regiao" size="3">
-              <option value="0">Todas as regiões</option>
-              <option value="1">Zona Norte</option>
-              <option value="2">Zona Sul</option>
-              <option value="3">Centro</option>
-              <option value="4">Zona Leste</option>
-              <option value="5">Zona Oeste</option>
-            </select>
-          </div>
-          <div class="mt-5 border-top pt-4">
-            <label class="font-weight-bold">Refeiçao</label>
-            <select class="custom-select" name="refeicao" size="3">
-              <option value="0">Todos os tipos</option>
-              <option value="1">Fastfood</option>
-              <option value="2">Massas</option>
-              <option value="3">Crudívera</option>
-            </select>
-          </div>
-          </form>
-          </div>
-          <div class="col-9">
-            <div class="row">
-              <div class="col-5">
-              <div class="card-body d-flex flex-column">
-                <img class="restaurante" src="images/restaurante_1.png"/>
+        <div class="col">
+          <nav class="navbar navbar-expand-md">
+            <div>
+              <button id="botaoMenu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBar"
+                aria-controls="navBar" aria-expanded="false" aria-label="Toggle navigation">
+                <i id="iconeMenu" class="material-icons">
+                  menu
+                </i>
+              </button>
             </div>
-        </div>
-        <div class="col-7">
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title mt-2">Produto 1</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Um breve descrição do produto</h6>
-                <p class="card-text align-self-center m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Morbi vel sapien eu lacus consectetur sodales. Nullam finibus arcu quis luctus ultricies.
-                  Phasellus bibendum rhoncus euismod. In lorem nibh, egestas sit amet enim sit amet, mollis aliquet erat.
-                  Nullam feugiat suscipit mauris, at dignissim erat feugiat viverra. </p>
+            <div id="navBar" class="nav collapse navbar-collapse">
+              <ul class="navbar-nav mr-auto">
+                <a id="textMenu1"
+                  class="nav-link text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4"
+                  href="#">Sobre</a>
+                <a id="textMenu2"
+                  class="nav-link text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4"
+                  href="#">Restaurantes</a>
+                <a id="textMenu3"
+                  class="nav-link text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4"
+                  href="#">Produtos</a>
+                <a id="textMenu4"
+                  class="nav-link text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4"
+                  href="#">Profissionais</a>
+                <a id="textMenu5"
+                  class="nav-link text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4"
+                  href="#">Blog</a>
+                <a id="textMenu6"
+                  class="nav-link text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4"
+                  href="#">Comunidade</a>
+                <a id="textMenu7"
+                  class="nav-link text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4"
+                  href="#">Acesse</a>
+                <a id="textMenu8"
+                  class="nav-link text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4"
+                  href="#">Registre-se</a>
+              </ul>
             </div>
-        </div>
-        </div>
+          </nav>
         </div>
       </div>
     </div>
-    </main>
+  </header>
+  <div class="space">
+  </div>
+  <div class="banner">
+      <img class="bannerImg" src="assets/img/banner.jpg" />
+    <div class="container">
+      <div class="row">
+          <div class="input-group mb-3 searchInput">
+              <input type="text" class="form-control" placeholder="Restaurantes" aria-label="Restaurantes" aria-describedby="button-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="button" id="button-addon2">Pesquisar</button>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="container">
+      <div class="row mt-5">
+        <aside class="col-12 col-md-3 border-right px-4 aside">
+          <form class="d-none d-md-block">
+              <h4>Filtro</h4>
+            <div>
+              <label class="font-weight-bold">Setor</label>
+              <select class="custom-select select" name="setor" size="5">
+                <option value="0">Todos os setores </option>
+                <option value="1">Restaurantes</option>
+                <option value="2">Produtos</option>
+                <option value="3">Profissionais</option>
+              </select>
+            </div>
+            <div class="mt-5 border-top pt-4">
+              <label class="font-weight-bold">Região</label>
+              <select class="custom-select select" name="regiao" size="5">
+                <option value="0">Todas as regiões</option>
+                <option value="1">Zona Norte</option>
+                <option value="2">Zona Sul</option>
+                <option value="3">Centro</option>
+                <option value="4">Zona Leste</option>
+                <option value="5">Zona Oeste</option>
+              </select>
+            </div>
+            <div class="mt-5 border-top pt-4">
+              <label class="font-weight-bold">Refeiçao</label>
+              <select class="custom-select select" name="refeicao" size="5">
+                <option value="0">Todos os tipos</option>
+                <option value="1">Fastfood</option>
+                <option value="2">Massas</option>
+                <option value="3">Crudívera</option>
+              </select>
+            </div>
+          </form>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+          <form class="d-block d-md-none">
+              <h4>Filtro</h4>
+  
+              <div>
+                <label class="font-weight-bold">Setor</label>
+                <select class="custom-select select" name="setor">
+                  <option value="0">Todos os setores </option>
+                  <option value="1">Restaurantes</option>
+                  <option value="2">Produtos</option>
+                  <option value="3">Profissionais</option>
+                </select>
+              </div>
+              <div class="pt-4">
+                <label class="font-weight-bold">Região</label>
+                <select class="custom-select select" name="regiao">
+                  <option value="0">Todas as regiões</option>
+                  <option value="1">Zona Norte</option>
+                  <option value="2">Zona Sul</option>
+                  <option value="3">Centro</option>
+                  <option value="4">Zona Leste</option>
+                  <option value="5">Zona Oeste</option>
+                </select>
+              </div>
+              <div class="pt-4">
+                <label class="font-weight-bold">Refeiçao</label>
+                <select class="custom-select select" name="refeicao">
+                  <option value="0">Todos os tipos</option>
+                  <option value="1">Fastfood</option>
+                  <option value="2">Massas</option>
+                  <option value="3">Crudívera</option>
+                </select>
+              </div>
+            </form>
+        </aside>
+        <main class="col-12 col-sm-9">
+          <div class="row ml-3">
+            <div class="col-12 col-md-5">
+              <div class="card-body d-flex flex-column">
+                <img class="restaurante" src="assets/img/restaurante_1.png" />
+              </div>
+            </div>
+            <div class="col-12 col-md-7">
+              <div class="row">
+                <div class="col-9 card-body d-flex flex-column pl-0">
+                  <h5 class="card-title mt-2">Restaurante 1</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Um breve descrição do produto</h6>
+                </div>
+                <div class="col-3 card-body d-flex flex-column">
+                  <a href="#" class="card-link align-self-center d-flex flex-column"><i
+                      class="material-icons align-self-center">favorite</i></a>
+                </div>
+                <p class="card-text align-self-center m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Morbi vel sapien eu lacus consectetur sodales. Nullam finibus arcu quis luctus ultricies.
+                  Phasellus bibendum rhoncus euismod.</p>
+                <div class="col-12 d-flex justify-content-end my-3">
+                  <button type="button" class="btn btn-primary">Entrar em contato</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row border-top ml-3">
+            <div class="col-12 col-md-5">
+              <div class="card-body d-flex flex-column">
+                <img class="restaurante" src="assets/img/restaurante_2.png" />
+              </div>
+            </div>
+            <div class="col-12 col-md-7">
+              <div class="row">
+                <div class="col-9 card-body d-flex flex-column pl-0">
+                  <h5 class="card-title mt-2">Restaurante 2</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Um breve descrição do produto</h6>
+                </div>
+                <div class="col-3 card-body d-flex flex-column">
+                  <a href="#" class="card-link align-self-center d-flex flex-column"><i
+                      class="material-icons align-self-center">favorite</i></a>
+                </div>
+                <p class="card-text align-self-center m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Morbi vel sapien eu lacus consectetur sodales. Nullam finibus arcu quis luctus ultricies.
+                  Phasellus bibendum rhoncus euismod. </p>
+                <div class="col-12 d-flex justify-content-end my-3">
+                  <button type="button" class="btn btn-primary">Entrar em contato</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row border-top ml-3">
+            <div class="col-12 col-md-5">
+              <div class="card-body d-flex flex-column">
+                <img class="restaurante" src="assets/img/restaurante_3.png" />
+              </div>
+            </div>
+            <div class="col-12 col-md-7">
+              <div class="row">
+                <div class="col-9 card-body d-flex flex-column pl-0">
+                  <h5 class="card-title mt-2">Restaurante 3</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Um breve descrição do produto</h6>
+                </div>
+                <div class="col-3 card-body d-flex flex-column">
+                  <a href="#" class="card-link align-self-center d-flex flex-column"><i
+                      class="material-icons align-self-center">favorite</i></a>
+                </div>
+                <p class="card-text align-self-center m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Morbi vel sapien eu lacus consectetur sodales. Nullam finibus arcu quis luctus ultricies.
+                  Phasellus bibendum rhoncus euismod. </p>
+                <div class="col-12 d-flex justify-content-end my-3">
+                  <button type="button" class="btn btn-primary">Entrar em contato</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
