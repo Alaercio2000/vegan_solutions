@@ -1,0 +1,346 @@
+
+html, body, #home{
+  height: 100%;
+
+/* overflow esconde a barra de rolagem em baixo
+ */
+overflow-x: hidden;
+   
+     color: #4f585e;
+     
+     text-rendering: optimizeLegibility;
+     background:url("../imagens/opaca1.png"), 
+     /* imagem que tem ruido */
+           url("../imagens/ruido.png"),
+           linear-gradient(50deg,#ce0e0e,#070bd6);
+           background-attachment: fixed;
+           font-family: Arial, Helvetica, sans-serif;
+   }
+
+   
+
+   .fixed-top{
+    padding: 15px 0;
+    background: rgba(0,0,0,0.6);
+    
+  }
+  /* nao consegui aplicar porque tinha que ir pegar
+  o link no inspecionar elemento */
+  .navbar-light .navbar-nav .nav-link{
+    color: white;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover{
+    /* vamos criar um efeito hover nas letras do head */
+    color: #91e842;
+  }
+  
+  /* agora  aplicar cor branca na borda do menu hamburguer */
+  .navbar-light .navbar-toggler{
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+  }
+
+  .servicos{
+    background: rgb(5, 5, 5);
+    padding: 15px 0;
+
+    
+  }
+  
+
+.fundo{
+  padding: 0px 0px 50px 0px;
+  background: rgba(255,255,255,0.6);
+}
+
+h1{
+	font-weight: 600;
+	/* isso deixa espacos entre as letras */
+	letter-spacing: 0.3em;
+	margin-bottom: 50px;
+	color: white;
+
+}
+  
+p{
+  font-weight: 400;
+	/* isso deixa espacos entre as letras */
+	letter-spacing: 0.3em;
+	margin-bottom: 50px;
+	color: white;
+}
+
+.texto-time{
+  background: rgba(0,0,0,0.3);
+  margin-top: 10px;
+ 
+  
+  color: rgb(41, 39, 39);
+}
+
+.mare{
+  border: 5px solid white;
+  background: rgba(0,0,0,0.6);
+}
+   
+/* css do rodape */
+
+
+/* vamos finalizar com o rodape */
+footer{
+	
+	
+	background: black;
+	padding: 50px 0px 20px 0px;
+	/* aqui o elemento saio de tras para ficar em cima */
+	position: relative;
+}
+
+footer h4{
+	color: rgb(189, 175, 175);
+	text-transform: uppercase;
+	font-weight: 0.8em;
+}
+/* aqui estamos a formatar todos links a da li do footer */
+footer .navbar-nav a{
+	color: white;
+	font-size: 0.8em;
+}
+
+/* criar um efeito hover no link */
+footer .navbar-nav a:hover{
+	text-decoration: none;
+	color: #91e842;
+}
+/* aqui tiramos o pontos da ul */
+footer ul{
+	list-style: none;
+}
+
+/* agora vamos colocar um ao lado do outro com float right  */
+footer ul li{
+	float: right;
+	/* essa margem separou os icones */
+	margin: 0 10px;
+}
+
+.veganos{
+  background:#F2693C;
+}
+
+
+/* css da parte time de developer */
+a.btn {
+     background: #91e842;
+     border-radius: 4px;
+     box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.25);
+     color: #ffffff;
+     display: inline-block;
+     padding: 6px 30px 8px;
+     position: relative;
+     text-decoration: none;
+     transition: all 0.1s 0s ease-out;
+   }
+   .no-touch a.btn:hover {
+     background: #00a2ad;
+     box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.075);
+     transform: translateY(-2px);
+     transition: all 0.25s 0s ease-out;
+   }
+   .no-touch a.btn:active,
+   a.btn:active {
+     background: #008a93;
+     box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.25);
+     transform: translate3d(0, 1px, 0);
+     transition: all 0.025s 0s ease-out;
+   }
+   div.cards {
+     
+     margin: 80px auto;
+     max-width: 960px;
+     text-align: center;
+   }
+   div.card {
+     -webkit-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+     border-radius: 10px;
+     background: #ffffff;
+     display: inline-block;
+     margin: 8px;
+     max-width: 300px;
+     perspective: 1000;
+     position: relative;
+     text-align: left;
+     transition: all 0.3s 0s ease-in;
+     z-index: 1;
+   }
+   div.card img {
+     max-width: 300px;
+   }
+   div.card div.card-title {
+     background: #ffffff;
+     padding: 6px 15px 10px;
+     position: relative;
+     z-index: 0;
+   }
+   div.card div.card-title a.toggle-info {
+     border-radius: 32px;
+     height: 32px;
+     padding: 0;
+     position: absolute;
+     right: 15px;
+     top: 10px;
+     width: 32px;
+   }
+   div.card div.card-title a.toggle-info span {
+     background: #ffffff;
+     display: block;
+     height: 2px;
+     position: absolute;
+     top: 16px;
+     transition: all 0.15s 0s ease-out;
+     width: 12px;
+   }
+   div.card div.card-title a.toggle-info span.left {
+     right: 14px;
+     transform: rotate(45deg);
+   }
+   div.card div.card-title a.toggle-info span.right {
+     left: 14px;
+     transform: rotate(-45deg);
+   }
+   div.card div.card-title h2 {
+     font-size: 24px;
+     font-weight: 700;
+     letter-spacing: -0.05em;
+     margin: 0;
+     padding: 0;
+   }
+   div.card div.card-title h2 small {
+     display: block;
+     font-size: 18px;
+     font-weight: 600;
+     letter-spacing: -0.025em;
+   }
+   div.card div.card-description {
+     padding: 0 15px 10px;
+     position: relative;
+     font-size: 14px;
+   }
+   div.card div.card-actions {
+     box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.075);
+     padding: 10px 15px 20px;
+     text-align: center;
+   }
+   div.card div.card-flap {
+     background: #d9d9d9;
+     position: absolute;
+     width: 100%;
+     transform-origin: top;
+     transform: rotateX(-90deg);
+   }
+   div.card div.flap1 {
+     transition: all 0.3s 0.3s ease-out;
+     z-index: -1;
+   }
+   div.card div.flap2 {
+     transition: all 0.3s 0s ease-out;
+     z-index: -2;
+   }
+   div.cards.showing div.card {
+     cursor: pointer;
+     opacity: 0.6;
+     transform: scale(0.88);
+   }
+   .no-touch div.cards.showing div.card:hover {
+     opacity: 0.94;
+     transform: scale(0.92);
+   }
+   div.card.show {
+     opacity: 1 !important;
+     transform: scale(1) !important;
+   }
+   div.card.show div.card-title a.toggle-info {
+     background: #d81717 !important;
+   }
+   div.card.show div.card-title a.toggle-info span {
+     top: 15px;
+   }
+   div.card.show div.card-title a.toggle-info span.left {
+     right: 10px;
+   }
+   div.card.show div.card-title a.toggle-info span.right {
+     left: 10px;
+   }
+   div.card.show div.card-flap {
+     background: #ffffff;
+     transform: rotateX(0deg);
+   }
+   div.card.show div.flap1 {
+     transition: all 0.3s 0s ease-out;
+   }
+   div.card.show div.flap2 {
+     transition: all 0.3s 0.2s ease-out;
+   }
+
+.links{
+  margin-left: 100px;
+}
+
+   /* MEDIA QUERY */
+
+   @media (max-width: 575.98px) { 
+  
+    .links{
+      margin-left: 0px;
+      align-items: center;
+      
+    }
+
+    .texto-time{
+      font-size: 2em;
+    }
+
+    
+    
+    /* paliquei margem no menu hamburguer */
+    
+   }
+   
+  
+  /* Small devices (landscape phones, 576px and up)*/
+  @media (min-width: 576px) and (max-width: 767.98px) { 
+  
+    .links{
+      margin-left: 0px;
+      align-items: center;
+      
+    }
+   
+    
+   }
+   
+  
+  /* Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+   
+    .links{
+      margin-left: 0px;
+      align-items: center;
+      
+    }
+   }
+  
+  /* Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) and (max-width: 1199.98px) { 
+   
+
+   }
+  
+  /* Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) { 
+   
+  
+   }
