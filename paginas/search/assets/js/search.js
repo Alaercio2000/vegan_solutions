@@ -17,3 +17,16 @@ function menuScrollBlog() {
     document.getElementById("iconeMenu").classList.remove("text-dark");
   }
 }
+var select = document.querySelectorAll(".selectResposivo");
+
+document.body.onresize = function() {
+    if (document.body.clientWidth < 909) {
+        select.forEach(function(elemento){
+            elemento.removeAttribute("multiple");
+        })
+    }else{
+        select.forEach(function(elemento){
+            elemento.setAttribute("multiple","");
+        })
+    }
+};
