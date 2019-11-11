@@ -1,7 +1,7 @@
 
-<link rel="stylesheet" href="../../assets/css/modal.css">
-<link rel="stylesheet" href="../../assets/css/forms.css">
-<script defer src="../../assets/js/modal.js"></script>
+<link rel="stylesheet" href="assets/css/modal.css">
+<link rel="stylesheet" href="assets/css/forms.css">
+<script defer src="assets/js/modal.js"></script>
 
 
 <div class="modals">

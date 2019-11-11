@@ -4,7 +4,7 @@ header>div>img {
 }
 
 body {
-    background-image: url('/assets/img/img-login/imgLogin.jpg');
+    background-image: url('../img/imgLogin.jpg');
 }
 
 .inner-div-form {

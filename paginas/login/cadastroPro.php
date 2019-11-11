@@ -1,6 +1,6 @@
 <?php include '../header/header.php'; ?>
-<link rel="stylesheet" href="../../assets/css/cadastroPro.css">
-<link rel="stylesheet" href="../../assets/css/forms.css">
+<link rel="stylesheet" href="assets/css/cadastroPro.css">
+<link rel="stylesheet" href="assets/css/forms.css">
 
 <main class="container text-center">
     
