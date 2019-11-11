@@ -4,12 +4,12 @@ header>div>img {
 }
 
 body {
-    background-image: url('/projeto-integrador/img/imgLogin.jpg');
+    background-image: url('/assets/img/img-login/imgLogin.jpg');
 }
 
-.inner-div-form-profissional {
-    margin: 0 auto;
+.inner-div-form {
     padding: 40px 20px;
     background-color: #FFF;
+    margin: 0 auto;
     border-radius: 5px;
 }
