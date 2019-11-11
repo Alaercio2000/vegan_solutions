@@ -51,7 +51,7 @@
             </div>
 
             <div class="form-group my-3 col-lg-12">
-                <input type="text" class="form-control" name="site" id="site" placeholder="site">
+                <input type="text" class="form-control" name="site" id="site" placeholder="Site">
             </div>
 
             <hr>
