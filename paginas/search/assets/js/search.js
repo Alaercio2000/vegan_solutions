@@ -1,9 +1,9 @@
-window.onscroll = function () { menuScroll()}
+window.onscroll = function () { menuScrollBlog()}
 
 var elementosNav = document.querySelectorAll(".textMenu");
 
-function menuScroll() {
-  if (document.documentElement.scrollTop > 410) {
+function menuScrollBlog() {
+  if (document.documentElement.scrollTop > 100) {
     document.getElementById("menuHeader").classList.add("bg-secondary");
     document.getElementById("iconeMenu").classList.add("text-dark");
     elementosNav.forEach(function(elem) {
