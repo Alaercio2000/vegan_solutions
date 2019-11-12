@@ -18,12 +18,8 @@
 
 <body>
 
-    <?php
-    
-    require("../header/header.php");
-    
-    ?>
-    
+    <?php require("../header/header.php"); ?>
+
     <div id="fundoBuscar" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-interval="5000">
@@ -212,14 +208,8 @@
 
     </main>
 
-    <?php
-    
-        require("../footer/footer.php");
-    
-    ?>
+    <?php require("../footer/footer.php"); ?>
 
 </body>
 
 </html>
-
-<?php include '../login/modals.php'; ?>
