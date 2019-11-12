@@ -1,7 +1,6 @@
 #carousel img {
     object-fit: cover;
-    height: 400px;
-  }
+}
   .card>h5,
   p {
     font-family: 'Staatliches', cursive;
@@ -29,4 +28,9 @@
     .card {
         height: 420px;
 
+    }
+
+    .btn {
+
+      background-color: blue;
     }
