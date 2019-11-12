@@ -79,8 +79,6 @@
     </div>
 
 
-
-
     <div class="container mt-5">
         <div class="row">
             <div class="col-lg-3 col-md-6">
@@ -90,7 +88,7 @@
                     <div class="card-body">
                         <h5 class="card-title">ALIMENTAÇÃO CRUA</h5>
                         <p class="card-text">Comer alimentos crus pode melhorar a digestão e aumentar a vitalidade.</p>
-                        <a target="_blank" href="http://www.belagil.com/blog/2016/8/2/a-alimentao-viva-ou-crudivorismo" class="btn btn-danger"> Veja matéria</a>
+                        <a target="_blank" href="http://www.belagil.com/blog/2016/8/2/a-alimentao-viva-ou-crudivorismo" class="btn btn-success"> Veja matéria</a>
                     </div>
                 </div>
             </div>
@@ -100,7 +98,7 @@
                     <div class="card-body">
                         <h5 class="card-title">BITUCAS DE CIGARRO VIRAM PRANCHA DE SURF</h5>
                         <p class="card-text">Ação reduz pontas de cigarros na ruas, praias e oceanos.</p>
-                        <a target="_blank" href="https://vegmag.com.br/blogs/meio-ambiente/bitucas-viram-pranchas-de-surfe" class="btn btn-danger"> Veja matéria</a>
+                        <a target="_blank" href="https://vegmag.com.br/blogs/meio-ambiente/bitucas-viram-pranchas-de-surfe" class="btn btn-success"> Veja matéria</a>
                     </div>
                 </div>
 
@@ -112,7 +110,7 @@
                         <h5 class="card-title">COSMÉTICOS NATURAIS</h5>
                         <p class="card-text">Veja como fazer hidratante, pasta de dente, tônico pra pele, entre outros produtos de beleza veganos.</p>
                         <a target="_blank" href="https://revistaglamour.globo.com/Beleza/noticia/2016/11/beleza-vegana-saiba-como-fazer-cosmeticos-naturais-em-casa.html"
-                            class="btn btn-danger"> Veja matéria</a>
+                            class="btn btn-success"> Veja matéria</a>
                     </div>
                 </div>
 
@@ -126,7 +124,7 @@
                         </p>
                         <a target="_blank"
                             href="https://noticias.ambientebrasil.com.br/clipping/2018/10/05/147245-9-beneficios-para-a-saude-de-se-tornar-vegano.html"
-                            class="btn btn-danger"> Veja matéria</a>
+                            class="btn btn-success"> Veja matéria</a>
                     </div>
                 </div>
 
@@ -142,7 +140,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">MOVIMENTO SER VEGANO É (UM) BARATO</h5>
                                 <p class="card-text">Compartilhe sua receita e divulgue essa idéia.</p>
-                                <a target="_blank" href="https://vegmag.com.br/blogs/alimentacao/movimento-ser-vegano-e-um-barato" class="btn btn-danger"> Veja matéria</a>
+                                <a target="_blank" href="https://vegmag.com.br/blogs/alimentacao/movimento-ser-vegano-e-um-barato" class="btn btn-success"> Veja matéria</a>
                             </div>
                         </div>
                     </div>
@@ -152,7 +150,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">BOLINHO DE CASCA DE BANANA</h5>
                                 <p class="card-text">É possível reaproveitar a casca da banana em diversas receitas, nesse caso, um bolinho que pode ser acompanhamento nas principais refeições.</p>
-                                <a target="_blank" href="https://veganapratica.com/bolinho-de-casca-de-banana/" class="btn btn-danger"> Veja matéria</a>
+                                <a target="_blank" href="https://veganapratica.com/bolinho-de-casca-de-banana/" class="btn btn-success"> Veja matéria</a>
                             </div>
                         </div>
 
@@ -164,7 +162,7 @@
                                 <h5 class="card-title">SAÚDE FRUGAL</h5>
                                 <p class="card-text">Nutricionista clínico especializado em dietas veganas e crudívora tem página com receitas e mostra os benefícios de adotar essa dieta.</p>
                                 <a target="_blank" href="http://saudefrugal.blogspot.com/"
-                                    class="btn btn-danger"> Veja matéria</a>
+                                    class="btn btn-success"> Veja matéria</a>
                             </div>
                         </div>
 
@@ -178,7 +176,7 @@
                                 </p>
                                 <a target="_blank"
                                     href="http://ayurveda.com.br/a-medicina-ayurvedica-ou-ayurveda/"
-                                    class="btn btn-danger"> Veja matéria</a>
+                                    class="btn btn-success"> Veja matéria</a>
                             </div>
                         </div>
 
