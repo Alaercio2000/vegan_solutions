@@ -1,6 +1,4 @@
 .modals {
-    position: absolute;
-    width: 450px;
     top: 0px;
     right: 0px;
     z-index: 2;
@@ -8,7 +6,6 @@
 
 .modal-cadastro {
     position: fixed;
-    width: 450px;
     background-color: #FFFFFF;
     color: #000000;
     margin-top: 89px;
@@ -20,7 +17,6 @@
 
 .modal-login {
     position: fixed;
-    width: 450px;
     background-color: #FFFFFF;
     color: #000000;
     margin-top: 89px;
@@ -45,18 +41,12 @@
     box-shadow: 0px 0px 4px 1px #ccc;
 }
 
-@media(max-width: 450px) {
+@media (max-width: 926px){
     .modal-cadastro {
-        width: 100%;
         margin-top: 95px;
     }
 
-    .modal-login {
-        width: 100%;
+    .modal-login{
         margin-top: 95px;
-    }
-
-    .modals {
-        width: 100%;
     }
 }
