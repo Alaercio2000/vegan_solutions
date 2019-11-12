@@ -1,7 +1,7 @@
 .modals {
     top: 0px;
     right: 0px;
-    z-index: 2;
+    z-index: 9999;
 }
 
 .modal-cadastro {
@@ -12,7 +12,7 @@
     height: 100%;
     box-shadow: -1px 4px 5px 2px #ccc;
     opacity: 91%;
-    z-index: 2;
+    z-index: 9999;
 }
 
 .modal-login {
@@ -23,7 +23,7 @@
     height: 100%;
     box-shadow: -1px 4px 5px 2px #ccc;
     opacity: 91%;
-    z-index: 2;
+    z-index: 9999;
 }
 
 .close-modal {

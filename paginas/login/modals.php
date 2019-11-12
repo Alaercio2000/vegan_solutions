@@ -1,7 +1,6 @@
-<link rel="stylesheet" href="assets/css/modal.css">
-<link rel="stylesheet" href="assets/css/forms.css">
-<link rel="stylesheet" href="../../assets/css/bootstrap/coresBootstrap.min.css">
-<script defer src="assets/js/modal.js"></script>
+<link rel="stylesheet" href="../login/assets/css/modal.css">
+<link rel="stylesheet" href="../login/assets/css/forms.css">
+<script defer src="../login/assets/js/modal.js"></script>
 
 
 <div class="modals container-fluid">
