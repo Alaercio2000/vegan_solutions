@@ -56,8 +56,8 @@ require("../login/modals.php");
                             <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="../search/search.php">Profissionais</a>
                             <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="../blog/blog.php">Blog</a>
                             <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="../comunidade/comunidade.php">Comunidade</a>
-                            <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="javascript:void()" onClick="showModalLogin()">Acesse</a>
-                            <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="javascript:void()" onClick="showModalCadastro()">Registre-se</a>
+                            <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="javascript:void(showModalLogin())">Acesse</a>
+                            <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="javascript:void(showModalCadastro())">Registre-se</a>
                         </ul>
                     </div>
                 </nav>
