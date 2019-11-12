@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="col-12">
-            <h6 class="py-2 font-weight-bold">@Copyright 2019 BeeVegan</h6>
+            <h6 class="py-2 font-weight-bold m-0">@Copyright 2019 BeeVegan</h6>
         </div>
     </div>
 
