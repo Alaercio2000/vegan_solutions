@@ -35,7 +35,7 @@ require("../login/modals.php");
     <div id="menuHeader" class="container-fluid">
         <div class="row flex-row-reverse flex-md-row">
             <div class="col-6 col-pq-5 col-sm-8 col-md-2 pr-1">
-                <a class="col" href="" onClick="window.location.href = window.location.href;">
+                <a class="col" href="../home/home.php">
                     <img class="p-2 p-pq-1" height="90" src="../../assets/img/img-header-menu/logo.png" alt="Logo">
                 </a>
             </div>
