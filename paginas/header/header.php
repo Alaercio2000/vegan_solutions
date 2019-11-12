@@ -4,6 +4,33 @@ require("../login/modals.php");
 <script src="../login/assets/js/modal.js"></script>
 <link rel="stylesheet" href="../login/assets/css/modal.css">
 <link rel="stylesheet" href="../login/assets/css/forms.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+    #menuHeader {
+        transition: 0.6s;
+        background-color: rgb(100, 100, 100, .3);
+    }
+
+    #iconeMenu {
+        font-size: 50px;
+        line-height: 70px;
+        color: #ffffff;
+    }
+
+    #botaoMenu:focus {
+        outline: thin dotted;
+        outline: 0px auto -webkit-focus-ring-color;
+        outline-offset: 0px;
+    }
+
+    #navBar {
+        transition: 0.7s;
+    }
+
+    .nav-link {
+        transition: 0.5s;
+    }
+</style>
 <header class="fixed-top">
     <div id="menuHeader" class="container-fluid">
         <div class="row flex-row-reverse flex-md-row">
