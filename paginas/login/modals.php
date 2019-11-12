@@ -50,7 +50,7 @@
         </div>
     </div>
     <div class="row justify-content-end">
-        <div id="modal-login" class="modal-login text-center align-items-center col-12 col-md-5 col-lg-4 col-full-3 mr-3">
+        <div id="modal-login" class="modal-login text-center align-items-center col-12 col-md-5 col-lg-4 col-full-3 mr-3 d-none">
             <form action="" method="POST">
 
                 <div class="row d-flex flex-column my-3 align-items-center">
