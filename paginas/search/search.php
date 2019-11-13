@@ -6,47 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Veganices</title>
   <script defer src="assets/js/search.js"></script>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="../../assets/css/bootstrap/coresBootstrap.min.css">
   <link rel="stylesheet" href="assets/css/search.css">
 </head>
 
 <body>
-  <header class="fixed-top">
-    <div id="menuHeader" class="container-fluid">
-      <div class="row flex-row-reverse flex-md-row">
-        <div class="col-6 col-pq-5 col-sm-8 col-md-2 pr-1">
-          <a class="col" href="home.html">
-            <img class="p-2 p-pq-1" height="90" src="../home/assets/img/logo.png" alt="Logo">
-          </a>
-        </div>
-        <div class="col">
-          <nav class="navbar navbar-expand-md">
-            <div>
-              <button id="botaoMenu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBar" aria-controls="navBar"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <i id="iconeMenu" class="material-icons">
-                  menu
-                </i>
-              </button>
-            </div>
-            <div id="navBar" class="nav collapse navbar-collapse">
-              <ul class="navbar-nav mr-auto">
-                <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="#">Sobre</a>
-                <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="#">Restaurantes</a>
-                <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="#">Produtos</a>
-                <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="#">Profissionais</a>
-                <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="#">Blog</a>
-                <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="#">Comunidade</a>
-                <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="#">Acesse</a>
-                <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="#">Registre-se</a>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
+  <?php require("../header/header.php") ?>
   <div class="space">
   </div>
   <div class="banner">
@@ -65,12 +30,12 @@
   <div class="content">
     <div class="container">
       <div class="row mt-5">
-        <aside class="col-12 col-md-3 border-right px-3 aside">
-          <form >
+        <aside class="col-12 col-md-3 border-right px-4 aside">
+          <form class="d-none d-md-block">
             <h4>Filtro</h4>
             <div>
-              <label class="font-weight-bold d-block">Setor</label>
-              <select class="select selectResposivo w-100" multiple name="setor">
+              <label class="font-weight-bold">Setor</label>
+              <select class="custom-select select" name="setor" size="5">
                 <option value="0">Todos os setores </option>
                 <option value="1">Restaurantes</option>
                 <option value="2">Produtos</option>
@@ -78,8 +43,8 @@
               </select>
             </div>
             <div class="mt-5 border-top pt-4">
-              <label class="font-weight-bold d-block">Região</label>
-              <select class="select selectResposivo w-100" multiple name="regiao">
+              <label class="font-weight-bold">Região</label>
+              <select class="custom-select select" name="regiao" size="5">
                 <option value="0">Todas as regiões</option>
                 <option value="1">Zona Norte</option>
                 <option value="2">Zona Sul</option>
@@ -89,8 +54,8 @@
               </select>
             </div>
             <div class="mt-5 border-top pt-4">
-              <label class="font-weight-bold d-block">Refeiçao</label>
-              <select class="select selectResposivo w-100" multiple name="refeicao">
+              <label class="font-weight-bold">Refeiçao</label>
+              <select class="custom-select select" name="refeicao" size="5">
                 <option value="0">Todos os tipos</option>
                 <option value="1">Fastfood</option>
                 <option value="2">Massas</option>
@@ -99,6 +64,39 @@
             </div>
           </form>
 
+          <form class="d-block d-md-none">
+              <h4>Filtro</h4>
+  
+              <div>
+                <label class="font-weight-bold">Setor</label>
+                <select class="form-control" name="setor">
+                  <option value="0">Todos os setores </option>
+                  <option value="1">Restaurantes</option>
+                  <option value="2">Produtos</option>
+                  <option value="3">Profissionais</option>
+                </select>
+              </div>
+              <div class="pt-4">
+                <label class="font-weight-bold">Região</label>
+                <select class="form-control" name="regiao">
+                  <option value="0">Todas as regiões</option>
+                  <option value="1">Zona Norte</option>
+                  <option value="2">Zona Sul</option>
+                  <option value="3">Centro</option>
+                  <option value="4">Zona Leste</option>
+                  <option value="5">Zona Oeste</option>
+                </select>
+              </div>
+              <div class="pt-4">
+                <label class="font-weight-bold">Refeiçao</label>
+                <select class="form-control" name="refeicao">
+                  <option value="0">Todos os tipos</option>
+                  <option value="1">Fastfood</option>
+                  <option value="2">Massas</option>
+                  <option value="3">Crudívera</option>
+                </select>
+              </div>
+            </form>
         </aside>
         <main class="col-12 col-sm-9">
           <div class="row ml-3">
@@ -121,7 +119,7 @@
                 <p class="card-text align-self-center m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel sapien eu lacus consectetur sodales. Nullam
                   finibus arcu quis luctus ultricies. Phasellus bibendum rhoncus euismod.</p>
                 <div class="col-12 d-flex justify-content-end my-3">
-                  <button type="button" class="btn btn-primary">Entrar em contato</button>
+                  <button type="button" class="btn btn-primary"><a class="text-info" href="item.php">Entrar em contato</a></button>
                 </div>
               </div>
             </div>
@@ -181,12 +179,8 @@
     </div>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+  <?php require("../footer/footer.php"); ?>
+
 </body>
 
 </html>

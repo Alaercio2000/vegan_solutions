@@ -71,6 +71,3 @@ require("../login/modals.php");
         </div>
     </div>
 </header>
-</body>
-
-</html>
