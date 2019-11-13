@@ -30,8 +30,7 @@ img.recomendacoesImagem {
 }
 
 img.recomendacoesImagem:hover {
-    width: 250px;
-    height: 250px;
+    transform: scale(1.1);
 }
 
 @media (max-width : 1080px){
@@ -44,22 +43,7 @@ img.recomendacoesImagem:hover {
     }
     
     img.recomendacoesImagem:hover {
-        width: 200px;
-        height: 200px;
-    }
-}
-@media (max-width : 1080px){
-    img.recomendacoesImagem {
-        height: 150px;
-        width: 150px;
-        border-radius: 50%;
-        object-fit: cover;
-        transition: 0.5s;
-    }
-    
-    img.recomendacoesImagem:hover {
-        width: 200px;
-        height: 200px;
+        transform: scale(1.1);
     }
 }
 
