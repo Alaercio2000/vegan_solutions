@@ -58,7 +58,7 @@ require("../login/modals.php");
                         <ul class="navbar-nav mr-auto">
                             <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="../sobre/sobre.php">Sobre</a>
                             <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="../search/search.php">Restaurantes</a>
-                            <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="../search/search.php/">Produtos</a>
+                            <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="../search/search.php">Produtos</a>
                             <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="../search/search.php">Profissionais</a>
                             <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="../blog/blog.php">Blog</a>
                             <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4" href="../comunidade/comunidade.php">Comunidade</a>
