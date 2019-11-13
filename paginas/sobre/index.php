@@ -7,8 +7,9 @@
     <link rel="icon" href="assets/imagens/favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" >
-    <link rel="stylesheet" type="text/css" href="/assets/css/estilo.css">
-    <script defer  type="text/javascript" src="assets/js/file.js"></script>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <script defer type="text/javascript" src="assets/js/file.js"></script>
+    
    
 </head>
 <body>
