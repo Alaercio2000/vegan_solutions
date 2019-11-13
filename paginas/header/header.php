@@ -1,7 +1,7 @@
 <?php
 require("../login/modals.php");
 ?>
-<script src="../login/assets/js/modal.js"></script>
+<script defer src="../login/assets/js/modal.js"></script>
 <link rel="stylesheet" href="../login/assets/css/modal.css">
 <link rel="stylesheet" href="../login/assets/css/forms.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
