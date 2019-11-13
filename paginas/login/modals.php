@@ -44,7 +44,7 @@
 
                 <p class="mb-1"> Já tem uma conta? <a href="javascript:void()" onClick="showModalLogin()">Entrar</a></p>
 
-                <p>Você é profissional? <a href="/paginas/login/cadastroPro.php">Clique aqui</a></p>
+                <p>Você é profissional? <a href="../login/cadastroPro.php">Clique aqui</a></p>
 
             </form>
         </div>
@@ -84,7 +84,7 @@
 
                 <p class="mb-1"><a href="">Esqueceu sua senha?</a></p>
 
-                <p>Você é profissional? <a href="/paginas/login/loginPro.php">Clique aqui</a></p>
+                <p>Você é profissional? <a href="../login/loginPro.php">Clique aqui</a></p>
 
             </form>
         </div>
