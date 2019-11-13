@@ -48,11 +48,11 @@
         <section class="py-5">
             <div id="recomendacoesPai" class="container-fluid">
                 <div class="row">
-                    <div class="col-12 col-pq-6 col-md-3 text-center">
+                    <div class="col-12 col-pq-6 col-md-3 text-center elementoHover">
                         <a href="#">
                             <img class="recomendacoesImagem" src="assets/img/restauranteImagemTeste.jpg" alt="Restaurante Veganos">
                         </a>
-                        <h6 class="py-3">Encontre Restaurantes</h6>
+                        <h6 class="py-3 textElemento">Encontre Restaurantes</h6>
                     </div>
                     <div class="col-12 col-pq-6 col-md-3 text-center">
                         <a href="#">
