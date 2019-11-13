@@ -20,7 +20,7 @@
                 <!-- aqui posicionamos o elemento no centro consuante a altura -->
                 <div class="container align-self-center">
                   <!-- ficou centralizado na vertical, temos q por-lo no meio -->
-                  <div class="row text-center">
+                  <div class="text-center">
                      <div class="col-md-12 mare">
                          <h1>O que é o Veganices?</h1>
                          <p class="justify">Lorem ipsum dolor sit amet, consectetur 

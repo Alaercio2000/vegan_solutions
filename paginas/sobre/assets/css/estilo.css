@@ -14,16 +14,14 @@ overflow-x: hidden;
            url("../imagens/ruido.png"),
            linear-gradient(50deg,#ce0e0e,#070bd6);
            background-attachment: fixed;
+           background-size: cover;
+           background-repeat: no-repeat;
            font-family: Arial, Helvetica, sans-serif;
    }
 
    
 
-   .fixed-top{
-    padding: 15px 0;
-    background: rgba(0,0,0,0.6);
-    
-  }
+
   /* nao consegui aplicar porque tinha que ir pegar
   o link no inspecionar elemento */
   .navbar-light .navbar-nav .nav-link{
@@ -88,42 +86,6 @@ p{
 
 
 /* vamos finalizar com o rodape */
-footer{
-	
-	
-	background: black;
-	padding: 50px 0px 20px 0px;
-	/* aqui o elemento saio de tras para ficar em cima */
-	position: relative;
-}
-
-footer h4{
-	color: rgb(189, 175, 175);
-	text-transform: uppercase;
-	font-weight: 0.8em;
-}
-/* aqui estamos a formatar todos links a da li do footer */
-footer .navbar-nav a{
-	color: white;
-	font-size: 0.8em;
-}
-
-/* criar um efeito hover no link */
-footer .navbar-nav a:hover{
-	text-decoration: none;
-	color: #91e842;
-}
-/* aqui tiramos o pontos da ul */
-footer ul{
-	list-style: none;
-}
-
-/* agora vamos colocar um ao lado do outro com float right  */
-footer ul li{
-	float: right;
-	/* essa margem separou os icones */
-	margin: 0 10px;
-}
 
 .veganos{
   background:#F2693C;
