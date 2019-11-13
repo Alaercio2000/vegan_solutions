@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="../login/assets/css/modal.css">
-<link rel="stylesheet" href="../login/assets/css/forms.css">
+<link rel="stylesheet" href="assets/css/modal.css">
+<link rel="stylesheet" href="assets/css/forms.css">
 <script defer src="../login/assets/js/modal.js"></script>
 
 
@@ -9,7 +9,8 @@
             <form action="" method="POST">
 
                 <div class="row d-flex flex-column my-3 align-items-center">
-                    <div class="close-modal mt-2" onClick="hideModalCadastro()">X</div>
+
+                    <div class="close-modal" onClick="hideModalCadastro()">X</div>
 
                     <h3>Cadastro</h3>
 
@@ -39,11 +40,11 @@
 
                 </div>
 
-                <button type="submit" class="btn btn-primary mb-2">Criar conta</button>
+                <button type="submit" class="btn btn-primary mb-1">Criar conta</button>
 
-                <p> Já tem uma conta? <a href="javascript:void()" onClick="showModalLogin()">Entrar</a></p>
+                <p class="mb-1"> Já tem uma conta? <a href="javascript:void()" onClick="showModalLogin()">Entrar</a></p>
 
-                <p class="mb-5">Você é profissional? <a href="/paginas/login/cadastroPro.php">Clique aqui</a></p>
+                <p>Você é profissional? <a href="/paginas/login/cadastroPro.php">Clique aqui</a></p>
 
             </form>
         </div>
@@ -81,9 +82,9 @@
 
                 <button type="submit" class="btn btn-primary mb-2">Entrar</button>
 
-                <p><a href="">Esqueceu sua senha?</a></p>
+                <p class="mb-1"><a href="">Esqueceu sua senha?</a></p>
 
-                <p class="mb-5">Você é profissional? <a href="/paginas/login/loginPro.php">Clique aqui</a></p>
+                <p>Você é profissional? <a href="/paginas/login/loginPro.php">Clique aqui</a></p>
 
             </form>
         </div>

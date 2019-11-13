@@ -1,6 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Veganices</title>
+    <link rel="stylesheet" href="../../assets/css/bootstrap/coresBootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/forms.css">
+    <link rel="stylesheet" href="assets/css/cadastroPro.css">
+</head>
+
+<body>
+    
 <?php include '../header/header.php'; ?>
-<link rel="stylesheet" href="assets/css/cadastroPro.css">
-<link rel="stylesheet" href="assets/css/forms.css">
 
 <main class="container text-center">
     

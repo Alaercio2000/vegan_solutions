@@ -6,55 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Veganices</title>
   <script defer src="assets/js/search.js"></script>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="../../assets/css/bootstrap/coresBootstrap.min.css">
   <link rel="stylesheet" href="assets/css/search.css">
 </head>
 
 <body>
-  <header class="fixed-top">
-    <div id="menuHeader" class="container-fluid">
-      <div class="row flex-row-reverse flex-md-row">
-        <div class="col-6 col-pq-5 col-sm-8 col-md-2 pr-1">
-          <a class="col" href="home.html">
-            <img class="p-2 p-pq-1" height="90" src="../home/assets/img/logo.png" alt="Logo">
-          </a>
-        </div>
-        <div class="col">
-          <nav class="navbar navbar-expand-md">
-            <div>
-              <button id="botaoMenu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBar"
-                aria-controls="navBar" aria-expanded="false" aria-label="Toggle navigation">
-                <i id="iconeMenu" class="material-icons">
-                  menu
-                </i>
-              </button>
-            </div>
-            <div id="navBar" class="nav collapse navbar-collapse">
-              <ul class="navbar-nav mr-auto">
-                <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4"
-                  href="#">Sobre</a>
-                <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4"
-                  href="#">Restaurantes</a>
-                <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4"
-                  href="#">Produtos</a>
-                <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4"
-                  href="#">Profissionais</a>
-                <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4"
-                  href="#">Blog</a>
-                <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4"
-                  href="#">Comunidade</a>
-                <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4"
-                  href="#">Acesse</a>
-                <a class="nav-link textMenu text-info font-weight-bold py-4 px-sm-1 px-md-2 px-lg-3 px-xl-4 pl-full-5 pr-full-4"
-                  href="#">Registre-se</a>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
+<?php require("../header/header.php") ?>
   <div class="space">
   </div>
   <div class="banner">
@@ -80,7 +37,7 @@
               <h5 class="card-title mt-2">Restaurante 1</h5>
               <h6 class="card-subtitle mb-2 text-muted">Número de estrelas</h6>
             </div>
-            <div class="col-2 card-body d-flex flex-column align-self-center">
+            <div class="col-4 col-md-2 card-body d-flex flex-column align-self-center">
               <button type="button" class="btn btn-primary">Avaliar</button>
             </div>
             <div class="col-1 card-body d-flex flex-column align-self-center">
@@ -88,7 +45,7 @@
                 <i class="material-icons align-self-center">favorite</i>
               </a>
             </div>
-            <div id="carouselExampleControls" class="carousel slide col-9" data-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide col-12 col-md-9" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="assets/img/restaurante_1.png" class="d-block w-100">
@@ -109,7 +66,7 @@
                 <span class="sr-only">Next</span>
               </a>
             </div>
-            <aside class="col-3">
+            <aside class="col-12 col-md-3">
               <h4>Entrar em contato </h4>
               <form>
                   <div class="form-group">
@@ -123,7 +80,7 @@
                 </form>
             </aside>
             <div class="row">
-              <div class="col-8 my-5">
+              <div class="col-12 col-md-8 my-5">
                 <h4>Informações sobre o restaurante</h4>
                 <p class="card-text align-self-center m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Morbi vel sapien eu lacus consectetur sodales. Nullam
@@ -136,14 +93,14 @@
                   finibus arcu quis luctus ultricies. Phasellus bibendum rhoncus euismod.</p>
               </div>
             </div>
-            <div class="row ml-3">
-                <div class="col-12 col-md-2">
+            <div class="row">
+                <div class="col-6 col-md-2">
                     <h4>Avaliações</h4>
                   <div class="card-body d-flex flex-column">
                     <img class="restaurante" src="assets/img/perfil.jpg" />
                   </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-6 col-md-6">
                   <div class="row">
                     <div class="col-9 card-body d-flex flex-column pl-0">
                       <h5 class="card-title mt-2">Nome Usuário</h5>
@@ -161,15 +118,7 @@
     </div>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+  <?php require("../footer/footer.php"); ?>
 </body>
 
 </html>

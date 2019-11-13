@@ -1,8 +1,8 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -22,207 +22,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <link rel="stylesheet" href="./assets/CSS/Comunidade.css">
-    <title>Comunidade</title>
+    <link rel="stylesheet" href="./assets/CSS/Forum.css">
 
-
-    
+    <title>Forum</title>
 
 
 </head>
 
 <body>
-
-    <div class="container ">
-        <!-- tamanho da argura dos conteudos -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light  border-bottom  cotroleTamanhoNav ">
-            <!--  navbar-light prepara pra receber ambiente claro bg-light cor background -->
-            <a class="navbar-brand" href="#"> BE VEGAN </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
-                <!-- navbar-toggler prepara para alternar/   data-toggle: tipo de alternar e Data-target: alvo a ser alternado-->
-                <span class="navbar-toggler-icon"> </span>
-                <!--icone hanburger do bootstrap-->
-            </button>
-            <div class="navbar-collapse collapse" id="navbarMenu">
-                <!-- quem vai ser collapsado -->
-                <ul class="navbar-nav mr-auto">
-                    <!--navbar-bar deixa o conteudo na horizontal-->
-                    <li class="nav-item"><a class=" nav-link corA" href="#">SOBRE</a></li>
-                    <li class="nav-item"><a class="nav-link  corA" href="#">RESTAURANTES</a></li>
-                    <li class="nav-item"><a class="nav-link  corA" href="#">PRODUTOS</a></li>
-                    <li class="nav-item"> <a class="nav-link corA" href="#">PROFISSIONAIS</a></li>
-                    <li class="nav-item"> <a class="nav-link corA" href="#">BLOG </a></li>
-                    <li class="nav-item active"> <a class="nav-link corA" href="#">COMUNIDADE</a></li>
-                </ul>
-                <div class="navbar-nav ">
-                    <!--navbar-bar deixa o conteudo na horizontal-->
-                    <button class="btn cadastroCor"> Acesse </button>
-                    <button class="btn cadastroCor"> Registre-se </button>
-                </div>
+    <div class="container mt-5">
+        <div class="tamanhoDiv   ">
+            <div
+                class="tamanhoImagenForum d-flex align-items-end pl-4 pb-2 border-top border-right border-left rounded-top">
+                <h1 class="corLetraForum">Forum Primeiros passos</h1>
             </div>
-        </nav>
-    </div>
+            <div class="d-flex border rounded ">
+                <div class="pl-4 col-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae cumque
+                    mollitia at illum consequuntur provident maxime quasi sit sequi, architecto omnis vel natus nostrum
+                    dolore commodi! Commodi sed laudantium nulla.</div>
+                <div class=" col-4">Menbros: 456</div>
 
-    <!--------------------------------------- comunidade------------------------------------------------->
-    <div class="container mt-5 ">
-        <div class="row">
-            <!-- comunidade lado esquerdo  -->
-            <div class="col-lg  ">
-                <div class="media">
-                    <ul class="list-unstylied">
-                        <li class="list-group">
-                            <a class="media d-flex flex-row-reverse mb-3 linkComunidadecor"
-                                style="text-decoration: none" href="#">
-                                <img src="./assets/IMG/batman.jpg" alt="batman"
-                                    class="img-thumbnail rounded  imgComunidadePessoas ml-2 shadow ">
-                                <div class="media-body align-self-center col-lg">
-                                    <h6><strong> Eu sou o Batman!!! </strong> </h6>
-                                    <small class=" text-muted">Batman</small>
-                                    <br>
-                                    <small class=" text-muted">Faz 4 Horas</small>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="list-group ">
-                            <a class="media mb-3 linkComunidadecor" style="text-decoration: none" href="#">
-                                <img src="./assets/IMG/deadpool.jpg" alt="batman"
-                                    class="img-thumbnail rounded  imgComunidadePessoas mr-2  shadow">
-                                <div class="media-body align-self-center col-lg">
-                                    <h6> <strong> acredite sou vegano, só mato gente =) </strong> </h6>
-                                    <small class=" text-muted">DeadPool</small>
-                                    <br>
-                                    <small class=" text-muted">Faz 1 Horas</small>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="list-group">
-                            <a class="media d-flex flex-row-reverse mb-3 linkComunidadecor"
-                                style="text-decoration: none" href="#">
-                                <img src="./assets/IMG/wonderwoman.jpg" alt="batman"
-                                    class="img-thumbnail rounded  imgComunidadePessoas shadow">
-                                <div class="media-body align-self-center col-lg">
-                                    <h6> <strong> Só comemmos frutas frescas da árvore dos Deuses </strong> </h6>
-                                    <small class=" text-muted">Wonder Woman </small>
-                                    <br>
-                                    <small class=" text-muted">Faz 3 Horas</small>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
             </div>
+        </div>
 
-            <!-- comunidade procura  -->
 
-            <div class="col-lg-5  d-flex align-items-center   ">
-                <div class="d-flex align-items-center bordaComunidade rounded">
-                    <div class="col-lg  ">
-                        <h2 class="text-center font-weight-bold "> Comunidade </h2>
-                        <p class="text-justify text-center"> Compartilhe e resolva suas dúvidas com a ajuda de outros
-                            veganos</p>
-                        <form method="POST" class="d-flex justify-content-center ">
-                            <div class="btn-group" role="group" aria-label="Basic example">
-                                <input type="text" name="pesquisa" class="form-group btn-lg "
-                                    placeholder="O que procurar?">
-                                <button type="button" class="btn btn-sm form-group corbuttonComunidade"> busca </button>
-                            </div>
-                        </form>
+        <div class="mt-5">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <div class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <img class="img-thumbnail  rounded-circle imgUsuarioRedonda ml-2 shadow " src="./assets/IMG/super.jpg " alt="super">
+                                
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder= "Escreva o titulo do debate">
+                                </div>
+                                <div class="form-group">
+
+                                    <textarea class="form-control" rows="10" placeholder= "Escreva sua mensagem"></textarea>
+                                </div>
+                            </form>
+
+                        </div>
                     </div>
                 </div>
+
             </div>
 
-            <!-- comunidade lado direito  -->
 
-            <div class="col-lg ">
-                <div class="media">
-                    <ul class="list-unstylied">
-                        <li class="list-group">
-                            <a class="media mb-3 linkComunidadecor" style="text-decoration: none" href="#">
-                                <div>
-                                    <img src="./assets/IMG/ironman.jpg" alt="batman"
-                                        class="img-thumbnail rounded  imgComunidadePessoas mr-2 shadow">
-                                </div>
-                                <div class="media-body align-self-center col-lg">
-                                    <h6> <strong> Só uso óleo de coco na armadura </strong> </h6>
-                                    <small class=" text-muted">Iron Man</small>
-                                    <br>
-                                    <small class=" text-muted">Faz 3 Horas</small>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="list-group">
-                            <a class="media d-flex flex-row-reverse mb-3 linkComunidadecor"
-                                style="text-decoration: none" href="#">
-                                <img src="./assets/IMG/super.jpg" alt="batman"
-                                    class="img-thumbnail rounded imgComunidadePessoas shadow">
-                                <div class="media-body align-self-center col-lg">
-                                    <h6><strong> Vitamina b12 que nada... quero é vitamina D </strong> </h6>
-                                    <small class=" text-muted">Kal-El</small>
-                                    <br>
-                                    <small class=" text-muted">Faz 0:30 Horas</small>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="list-group">
-                            <a class="media mb-3 linkComunidadecor" style="text-decoration: none" href="#">
-                                <img src="./assets/IMG/lobo.jpg" alt="batman"
-                                    class="img-thumbnail rounded  imgComunidadePessoas mr-2 shadow">
-                                <div class="media-body align-self-center col-lg">
-                                    <h6> <strong> Vegano é uma MER.... </strong> </h6>
-                                    <small class=" text-muted">Maioral</small>
-                                    <br>
-                                    <small class=" text-muted">Faz 10 Horas</small>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
         </div>
 
-    </div>
-    <!---------------------------------------  links abaixo da comundade------------------------------------------------------------->
-    <div class=" carouselcol mt-5 mb-5 ">
-        <div class="container">
-            <div class="d-flex justify-content-between">
-                <div class=" imgComunidade">
-                    <a href="Forum_Debate.html" class="text-decoration-none">
-                        <div class="backgroundLinkimg  d-flex align-items-center justify-content-center rounded">
-                            <h2>Primeiros passos</h2>
-                        </div>
-                    </a>
-                </div>
-                <div class="imgComunidade">
-                    <a href="#" class="text-decoration-none">
-                        <div class="backgroundLinkimg  d-flex align-items-center justify-content-center rounded">
-                            <h2>Dificuldades</h2>
-                        </div>
-                    </a>
-                </div>
-                <div class="imgComunidade">
-                    <a href="#" class="text-decoration-none">
-                        <div class="backgroundLinkimg  d-flex align-items-center justify-content-center rounded">
-                            <h2>Alimentação</h2>
-                        </div>
-                    </a>
-                </div>
-                <div class="imgComunidade">
-                    <a href="#" class="text-decoration-none">
-                        <div class="backgroundLinkimg  d-flex align-items-center justify-content-center rounded">
-                            <h2>Produtos Caseiros</h2>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
+
+
     </div>
 
+     <!-- --------------------------------------- forum usuario site ----------------------------------------------------------------->
 
-    <!-- --------------------------------------- forum usuario site ----------------------------------------------------------------->
 
-
-    <div class="container mt-5 ">
+     <div class="container mt-5 ">
         <div class="row">
             <div class="col-lg ">
                 <h4> <strong> O que mais tem sido falado... </strong> </h4>
@@ -230,6 +97,7 @@
                     <div class=" row col-lg-2">
                         <a class="linkComunidadecor" href="#">
                             <img src="./assets/IMG/mulherGato.jpg" alt="Mulher Gato" class="img-thumbnail  rounded-circle imgUsuarioRedonda ml-2 shadow ">
+                           
                         </a>
                     </div>
                     <div class="col-lg">
@@ -427,8 +295,6 @@
 
         </div>
     </div>
-
-
 
 
 </body>
