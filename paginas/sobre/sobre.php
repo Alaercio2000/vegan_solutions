@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Veganos Projectos</title>
     <link rel="icon" href="assets/imagens/favicon.ico">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/bootstrap/coresBootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" >
     <link rel="stylesheet" href="assets/css/estilo.css">
     <script defer type="text/javascript" src="assets/js/file.js"></script>
@@ -14,61 +14,8 @@
 </head>
 <body>
 
-        <header><!-- inicio do menu -->
-            <!-- criei uma barra de nave.. expandida so encolhe em despositivos medios e fixo -->
-             <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-                 <div class="container">
-                   
-                     <a href="index.html">
-                         <img class="navbar-brand " src="assets/imagens/logo.png" width="142">
-                       </a>
-                       <!-- para criar o menu hamburguer aqui -->
-                       <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-pura">
-                           <i class="fas fa-bars text-white"></i>
-                       </button>
-                         
-                       <div class="collapse navbar-collapse" id="nav-pura">
-                         <!-- ml auto faz a ul parar a direita -->
-                         <ul class=" navbar-nav  col-md links este ">
-                              <li class="nav-item">
-                             <a href="" class="nav-link">SOBRE</a>
-                           </li>
-                           
-                           <li class="nav-item">
-                                <a href="" class="nav-link">RESTAURANTES</a>
-                              </li>
-                              
-                              <li class="nav-item">
-                                    <a href="" class="nav-link">PRODUTOS</a>
-                                  </li>
-                                  
-                           <li class="nav-item">
-                             <a href="" class="nav-link">PROFISSIONAIS</a>
-                           </li>
-                           
-                           <li class="nav-item">
-                               <a href="" class="nav-link">BLOG</a>
-                             </li>
-                             
-                             <li class="nav-item">
-                                 <a href="" class="nav-link">COMUNIDADE</a>
-                               </li>
-                               <li class="nav-item">
-                                   <a href="" class="nav-link trasso d-none d-lg-block">|</a>
-                                 </li>
-                               <li class="nav-item">
-                                   <a href="" class="nav-link ">Registre-se</a>
-                                 </li>
-                                 <li class="nav-item">
-                                     <a href="" class="nav-link ">Acesse</a>
-                                   </li>
-                         </ul>
-       
-                       </div>
-       
-                 </div>
-             </nav>
-          </header><!-- fim do menu -->
+        <?php require("../header/header.php"); ?>
+
           <section id="home" class="d-flex">
                 <!-- aqui posicionamos o elemento no centro consuante a altura -->
                 <div class="container align-self-center">
@@ -297,105 +244,8 @@
                     </div>
            </div><!-- fim das galerias -->
 
-           <!-- inicio do rodape -->
-           <footer><!-- inicio do rodape -->
-            <!-- criei uma barra de nave.. expandida so encolhe em despositivos medios e fixo -->
-             
-                 <div class="container">
-                   <div class="row">
-                     <div class="col-md-2">
-                        <img src="assets/imagens/logo.png" class="img-fluid">
-                     </div>
-                     <div class="col-md-2">
-                        <h4>Empresa</h4>
-                          <!-- aqui o navbar formata a ul tirando pontinhos -->
-                        <ul class="navbar-nav">
-                          <li>
-                            <a href="">Sobre</a>
-                          </li>
-                          <li>
-                              <a href="">Empregos</a>
-                          </li>
-                          <li>
-                              <a href="">Impresa</a>
-                          </li>
-                          <li>
-                              <a href="">Novidades</a>
-                          </li>
-                        </ul>
-                     </div>
-                     <div class="col-md-2">
-                        <h4>Comunidade</h4>
-                        <ul class="navbar-nav">
-                            <li>
-                              <a href="">Sobre</a>
-                            </li>
-                            <li>
-                                <a href="">Empregos</a>
-                            </li>
-                            <li>
-                                <a href="">Impresa</a>
-                            </li>
-                            <li>
-                                <a href="">Novidades</a>
-                            </li>
-                          </ul>
-                     </div>
-        
-                     <div class="col-md-2">
-                        <h4>Fast links</h4>
-                        <ul class="navbar-nav">
-                            <li>
-                              <a href="">Sobre</a>
-                            </li>
-                            <li>
-                                <a href="">Empregos</a>
-                            </li>
-                            <li>
-                                <a href="">Impresa</a>
-                            </li>
-                            <li>
-                                <a href="">Novidades</a>
-                            </li>
-                          </ul>
-                     </div>
-                     <div class="col-md-4">
-                        
-                        <ul>
-                          <li>
-                              <a href=""><img src="assets/imagens/facebook.png" ></a>
-                          </li>
-                          <li>
-                              <a href=""><img src="assets/imagens/twitter.png" ></a>
-                          </li>
-                          <li>
-                              <a href=""><img src="assets/imagens/instagram.png" ></a>
-                          </li>
-                      </ul>
-                     </div>
-                   </div>
-                    
-        
-                 </div>
-            
-            </footer>
+           <?php require("../footer/footer.php")?>
 
           
     
   
-
-    
-
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
-    </script>
-
-
-
-    
-    
-</body>
-</html>
