@@ -38,26 +38,26 @@
             <div id="recomendacoesPai" class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-pq-6 col-md-3 text-center elementoHover">
-                        <a href="#">
-                            <img class="recomendacoesImagem" src="assets/img/restauranteImagemTeste.jpg" alt="Restaurante Veganos">
+                        <a href="/veganices/paginas/search/search.php">
+                            <img class="recomendacoesImagem" src="assets/img/restauranteImagemTeste.jpg" alt="Restaurantes veganos">
                         </a>
                         <h6 class="py-3 textElemento">Encontre Restaurantes</h6>
                     </div>
                     <div class="col-12 col-pq-6 col-md-3 text-center">
-                        <a href="#">
-                            <img class="recomendacoesImagem" src="assets/img/diarioImagemTeste.jpg" alt="Restaurante Veganos">
+                        <a href="/veganices/paginas/blog/blog.php">
+                            <img class="recomendacoesImagem" src="assets/img/diarioImagemTeste.jpg" alt="Diario vegano">
                         </a>
                         <h6 class="py-3">Organize seu diario vegano</h6>
                     </div>
                     <div class="col-12 col-pq-6 col-md-3 text-center">
-                        <a href="#">
-                            <img class="recomendacoesImagem" src="assets/img/comunidadeImagemTeste.jpg" alt="Restaurante Veganos">
+                        <a href="/veganices/paginas/comunidade/comunidade.php">
+                            <img class="recomendacoesImagem" src="assets/img/comunidadeImagemTeste.jpg" alt="Comunidade">
                         </a>
                         <h6 class="py-3">Comunidade de veganos</h6>
                     </div>
                     <div class="col-12 col-pq-6 col-md-3 text-center">
-                        <a href="#">
-                            <img class="recomendacoesImagem" src="assets/img/dicasImagemTeste.jpg" alt="Restaurante Veganos">
+                        <a href="/veganices/paginas/blog/blog.php">
+                            <img class="recomendacoesImagem" src="assets/img/dicasImagemTeste.jpg" alt="Dicas de um vegano">
                         </a>
                         <h6 class="py-3">Encontre dicas importantes</h6>
                     </div>
@@ -74,57 +74,49 @@
                 <div class="row">
                     <div class="col-12 col-sm-6 col-lg-3 pb-4 cardDestaques">
                         <div class="card">
-                            <a href="#">
                                 <img height="200" src="assets/img/restauranteImagemTeste.jpg" class="card-img-top imagemCard" alt="Melhor Restaurante Mês">
-                            </a>
                             <div class="card-body">
                                 <h5 class="card-title">Restaurantes</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum alias deserunt numquam facere
                                     ipsam porro, molestiae est placeat totam ipsum autem! Provident expedita repellendus
                                     temporibus tenetur earum harum assumenda porro?</p>
-                                <a href="#" class="btn btn-primary mt-3">Conhecer</a>
+                                <a href="/veganices/paginas/search/search.php" class="btn btn-primary mt-3">Conhecer</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-3 pb-4 cardDestaques">
                         <div class="card">
-                            <a href="#">
                                 <img height="200" src="assets/img/nutricionistaImagemTeste.jpg" class="card-img-top imagemCard2" alt="Melhor Nutricionista Mês">
                                 <div class="card-body">
-                            </a>
                             <h5 class="card-title">Nutricionistas</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum alias deserunt numquam facere
                                 ipsam porro, molestiae est placeat totam ipsum autem! Provident expedita repellendus temporibus
                                 tenetur earum harum assumenda porro?</p>
-                            <a href="#" class="btn btn-primary mt-3">Conhecer</a>
+                            <a href="/veganices/paginas/search/search.php" class="btn btn-primary mt-3">Conhecer</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-3 pb-4 cardDestaques">
                     <div class="card">
-                        <a href="#">
                             <img height="200" src="assets/img/postImagemTeste.jpg" class="card-img-top imagemCard" alt="Melhor Postagem Mês">
-                        </a>
                         <div class="card-body">
                             <h5 class="card-title">Postagens</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum alias deserunt numquam facere
                                 ipsam porro, molestiae est placeat totam ipsum autem! Provident expedita repellendus
                                 temporibus tenetur earum harum assumenda porro?</p>
-                            <a href="#" class="btn btn-primary mt-3">Conhecer</a>
+                            <a href="/veganices/paginas/blog/blog.php" class="btn btn-primary mt-3">Conhecer</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-3 pb-4 cardDestaques">
                     <div class="card">
-                        <a href="#">
                             <img height="200" src="assets/img/fazerCasa.jfif" class="card-img-top imagemCard" alt="Melhor Receita Mês">
-                        </a>
                         <div class="card-body">
                             <h5 class="card-title">Receitas</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum alias deserunt numquam facere
                                 ipsam porro, molestiae est placeat totam ipsum autem! Provident expedita repellendus
                                 temporibus tenetur earum harum assumenda porro?</p>
-                            <a href="#" class="btn btn-primary mt-3">Conhecer</a>
+                            <a href="/veganices/paginas/blog/blog.php" class="btn btn-primary mt-3">Conhecer</a>
                         </div>
                     </div>
                 </div>
