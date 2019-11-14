@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="assets/css/modal.css">
-<link rel="stylesheet" href="assets/css/forms.css">
+<link rel="stylesheet" href="/veganices/paginas/login/assets/css/forms.css">
+<link rel="stylesheet" href="/veganices/paginas/login/assets/css/modal.css">
 <script defer src="../login/assets/js/modal.js"></script>
 
 

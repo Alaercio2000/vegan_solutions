@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Veganices</title>
-    <link rel="stylesheet" href="../../assets/css/bootstrap/coresBootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/forms.css">
-    <link rel="stylesheet" href="assets/css/loginPro.css">
+    <link rel="stylesheet" href="/veganices/assets/css/bootstrap/coresBootstrap.min.css">
+    <link rel="stylesheet" href="/veganices/paginas/login/assets/css/forms.css">
+    <link rel="stylesheet" href="/veganices/paginas/login/assets/css/modal.css">
 </head>
 
 <body>

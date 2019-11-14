@@ -3,7 +3,7 @@ window.onscroll = function () { menuScroll()}
 var elementosNav = document.querySelectorAll(".textMenu");
 
 function menuScroll() {
-  if (document.documentElement.scrollTop > 410) {
+  if (document.documentElement.scrollTop > 50) {
     document.getElementById("menuHeader").classList.add("bg-secondary");
     document.getElementById("iconeMenu").classList.add("text-dark");
     elementosNav.forEach(function(elem) {

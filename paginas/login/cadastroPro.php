@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Veganices</title>
     <link rel="stylesheet" href="../../assets/css/bootstrap/coresBootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/forms.css">
-    <link rel="stylesheet" href="assets/css/cadastroPro.css">
+    <link rel="stylesheet" href="/veganices/paginas/login/assets/css/forms.css">
+    <link rel="stylesheet" href="/veganices/paginas/login/assets/css/cadastroPro.css">
 </head>
 
 <body>

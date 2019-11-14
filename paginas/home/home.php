@@ -45,7 +45,7 @@
 
     <main class="px-3">
 
-        <section class="py-5">
+        <section class="pb-5">
             <div id="recomendacoesPai" class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-pq-6 col-md-3 text-center elementoHover">
