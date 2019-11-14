@@ -1,19 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Veganices</title>
-    <script defer src="assets/js/home.js"></script>
-    <link rel="stylesheet" href="../../assets/css/bootstrap/coresBootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/home.css">
-</head>
-
-<body>
-
+    
     <?php require("../header/header.php"); ?>
+
+    <link rel="stylesheet" href="assets/css/home.css">
+    <script defer src="assets/js/home.js"></script>
 
     <div id="fundoBuscar" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -204,7 +193,3 @@
     </main>
 
     <?php require("../footer/footer.php"); ?>
-
-</body>
-
-</html>
