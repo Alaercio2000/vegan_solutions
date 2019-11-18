@@ -1,21 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-br">
 
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <link rel="stylesheet" href="./assets/CSS/Comunidade.css">
-    <title>Comunidade</title>
-    <link rel="stylesheet" href="../../assets/css/bootstrap/coresBootstrap.min.css">
-    <script defer src="assets/js/comunidade.js"></script>
-</head>
-
-<body>
     <?php require("../header/header.php"); ?>
     
+    <link rel="stylesheet" href="./assets/CSS/Comunidade.css">
+    <script defer src="assets/js/comunidade.js"></script>
     <!--------------------------------------- comunidade----------------------------------------------- -->
    <div class="container-fluid corpoConteudo">
         <div class="row">
@@ -371,7 +358,3 @@
     <?php require("../footer/footer.php"); ?>
 
 
-
-</body>
-
-</html>

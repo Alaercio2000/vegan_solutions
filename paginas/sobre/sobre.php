@@ -1,20 +1,9 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Veganos Projectos</title>
-    <link rel="icon" href="assets/imagens/favicon.ico">
-    <link rel="stylesheet" href="../../assets/css/bootstrap/coresBootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" >
-    <link rel="stylesheet" href="assets/css/estilo.css">
-    <script defer type="text/javascript" src="assets/js/file.js"></script>
-    
-   
-</head>
-<body>
 
         <?php require("../header/header.php"); ?>
+
+         <link rel="stylesheet" href="assets/css/estilo.css">
+        <script defer type="text/javascript" src="assets/js/file.js"></script>
+    
 
           <section id="home" class="d-flex">
                 <!-- aqui posicionamos o elemento no centro consuante a altura -->
@@ -244,7 +233,7 @@
                     </div>
            </div><!-- fim das galerias -->
 
-           <?php require("../footer/footer.php")?>
+           <?php require("../footer/footer.php") ?>
 
           
     
